@@ -1,32 +1,23 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import Image from './Image'
+import Logo from './logo'
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      borderTop: `2rem solid #054c6c`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 1170,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <div className="header-left">
-        <Link to="/">
-          <Image />
-        </Link>
-      </div>
-      <div className="header-right">
+import { Container, Row, Col } from 'reactstrap';
 
-      </div>
-    </div>
-  </div>
+const Header = siteTitle => (
+  <header id="main-header" style={{ borderTop: `2rem solid #054c6c` }}>
+    <Container>
+      <Row>
+        <Col xs='3'>
+          <Logo />
+        </Col>
+        <Col xs='9' style={{ textAlign: `right` }}>
+          978-774-1050 | Email Us
+          <button>Enroll Now</button>
+        </Col>
+      </Row>
+    </Container>
+  </header>
 )
 
 Header.propTypes = {

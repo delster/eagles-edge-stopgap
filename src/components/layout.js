@@ -1,37 +1,24 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './all.css'
 import Header from './header'
-import './layout.css'
+import Footer from './footer'
 
 const Layout = ({ children }) => (
   <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
+    query={graphql`query SiteTitleQuery { site { siteMetadata { title } } }`}
+
     render={data => (
       <>
+        <Helmet>
+          <link href="//db.onlinewebfonts.com/c/c701401d8c0bdd0d324d881a86b3c634?family=DIN+1451+W01+Engschrift" rel="stylesheet" type="text/css" />
+        </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 1170,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
-          {children}
-          <footer>
-            © {new Date().getFullYear()} | Built by <a href="https://pixelparlor.com">Pixel Parlor</a>
-          </footer>
-        </div>
+        {children}
+        <Footer />
       </>
     )}
   />
