@@ -1,3 +1,24 @@
+/* Default Font */
 html, body, * {
   font-family: "DIN 1451 W01 Engschrift"
+}
+
+/* Default <section> spacing */
+section {
+  padding: 4rem 0;
+}
+
+/* Lines to the left and right of Headings */
+.lined-heading {
+  text-align: center;
+  background: -moz-linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
+  background: -ms-linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #ffffff), color-stop(50%, #000000), color-stop(51%, #000000), color-stop(52%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
+  background: -o-linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
+  background: linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
+}
+.lined-heading span {
+  background-color: white;
+  padding: 0 .5em;
 }

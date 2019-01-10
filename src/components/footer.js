@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Footer = () => (
   <footer id="main-footer">
-    <section style={{ display: `flex` }}>
+    <section style={{ display: `flex`, padding: `0` }}>
       <Col xs='3' style={{ height: `8px`, backgroundColor: `#f5b742` }} />
       <Col xs='3' style={{ height: `8px`, backgroundColor: `#db672b` }} />
       <Col xs='3' style={{ height: `8px`, backgroundColor: `#939598` }} />
@@ -21,8 +21,8 @@ const Footer = () => (
         </Row>
       </Container>
     </section>
-    <section>
-      <Container style={{ marginTop: `1.5rem` }}>
+    <section style={{ padding: `2rem 0 1rem` }}>
+      <Container>
         © {new Date().getFullYear()} Eagles Edge. All Rights Reserved.
       </Container>
     </section>
