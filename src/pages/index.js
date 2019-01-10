@@ -2,13 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Container, Row, Col } from 'reactstrap';
 import Layout from '../components/layout'
-import SEO from '../components/seo'
 import HomeBlurb from '../components/homeblurb'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`pixelparlor`, `microsite`, `eaglesedge`]} />
-    <Link to="/camp-christopher/">Internal Page Link Here</Link>
+    <Link to="/camp-christopher/">Camp Christopher (Internal Page)</Link>
     <section id="hero-section">
       <Container style={{
         display: `flex`,

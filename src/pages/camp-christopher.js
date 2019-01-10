@@ -1,15 +1,136 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import { Container, Row, Col, Button } from 'reactstrap';
 import Layout from '../components/layout'
-import SEO from '../components/seo'
 
 const CampChristopherPage = () => (
   <Layout>
-    <SEO title="Internal Page" />
-    <h1>Placeholder: Internal Page</h1>
-    <p>Welcome to the internal page placeholder.</p>
-    <Link to="/">Go back to the homepage?</Link>
+    <Link to="/">Home Page</Link>
+    <section id="hero-section" style={{
+      display: `flex`,
+      flexFlow: `column`,
+      alignItems: `center`,
+      justifyContent: `center`,
+      textAlign: `center`
+    }}>
+      <h1>Camp Christopher</h1>
+      <p>Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019</p>
+    </section>
+    <section id="welcome-section">
+      <Container>
+        <Row>
+          <Col xs='6'>
+            <img src="" />
+          </Col>
+          <Col xs='6'>
+            <h2>Welcome</h2>
+            <p>
+              Dear Camp Families, <br />
+              Since 1946, Camp Christopher has been operating on the campus of St. John’s Prep. We are very excited to announce that camp will be even better than ever in 2019! We are making several enhancements and additions to the program including the following:
+            </p>
+            <ul>
+              <li><strong>New Activities</strong> - science, art, music, theater; fun fitness and martial arts are being added along with our favorites like swimming, sports and gaga!</li>
+              <li><strong>New Special Events</strong> - fun theme days, a new camp show, “sleepunder” pajama party, and Ultimate Games are all being planned!</li>
+              <li><strong>Honored Traditions</strong> - we are continuing our existing traditions and bringing in new traditions!</li>
+              <li><strong>Our Staff</strong> - we are enhancing our staff by adding new team members with extensive camp experience!</li>
+            </ul>
+            <p>
+              In addition to these changes, we are also adding several SPECIALTY CAMPS and SPORTS CAMPS within Eagles/Edge at St. John’s Prep. We’re all very excited to make this the best summer ever for our campers!
+              </p>
+            <p>
+              Ryan Bird <br />
+              Director of Summer Programs
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    <section id="about-section">
+
+    </section>
+    <section id="scheduling-section">
+      <Container>
+        <Row>
+          <Col xs='6'>
+            <h2>Flexible Scheduling Available</h2>
+            <h3>Camp Details</h3>
+            <p> <strong>Camp Dates—</strong> June 24 to August 16, 2019 </p>
+            <p> <strong>Sessions—</strong> 2, 4, 6 and 8-week options available </p>
+            <p> <strong>Schedule—</strong> Monday through Friday from 9:00am to 3:45pm </p>
+            <p> <strong>Extended Day—</strong> Options include arriving as early as 8:00am and staying until 6:00pm </p>
+            <p> <strong>Transportation—</strong> Buses serve convenient locations in Andover, Georgetown, Lynnfield, Malden, Marblehead, Melrose, Middleton, Newburyport, North Andover, Reading, Salem, Swampscott, and Wakefield </p>
+            <p> <strong>What to Bring—</strong> Bathing suit, towel, hat, sneakers, sunscreen, water bottle. </p>
+          </Col>
+          <Col xs='6'>
+            <img src="" />
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    <section id="featuredprogram-section" style={{
+      backgroundColor: `#f0f0f0`,
+      borderBottom: `1.5rem solid #f5b742`
+    }}>
+      <Container>
+        <Row>
+          <Col xs='6'>
+            <img src="" />
+          </Col>
+          <Col xs='6'>
+            <h2>Featured Program: <br /> Aquatics</h2>
+            <p>Our Swim Program features both outdoor and indoor pools! Rain or shine we are swimming every day!! From our outdoor pool to our brand new 8-lane indoor pool, we have the facilities for beginning swimmers to the most advanced swimmers.</p>
+            <p>Our program builds confidence and enhances skills. Led by trained instructors and our certified Red Cross lifeguards, our program has a tradition of success with swimmers at all levels—from beginners with no experience to advanced swimmers.</p>
+            <p>Getting Started: Swimmers are tested on the first day of camp to determine their level. Levels change as swimmers progress.</p>
+            <p>Daily Lessons: Campers at every level receive a daily swim lesson.</p>
+            <p>Free Swim: In addition to a lesson, every day includes time for water play in the pool.</p>
+            <p>More pool time? Swimmers can head to the pool for their "camper's choice" time!</p>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    <section id="staff-section">
+      <Container>
+        <Row>
+          <Col xs='6'>
+            <h2>Our Staff</h2>
+            <p>
+              We employ exceptional staff members consisting of teachers, college students and graduate students, many of whom are pursuing degrees in Early Childhood, Elementary, Secondary and Physical Education and other related fields. All of our staff are carefully screened through a process of interviews, reference verifications and background checks. In addition to pre-camp training, staff members are required to attend training workshops and meetings while working on staff. A registered nurse is also available during the regular camp hours. The nurse oversees any medication required by campers and contacts parents if a child becomes ill during the camp day.
+            </p>
+          </Col>
+          <Col xs='6'>
+            <img src="" />
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    <section id="facilities-section">
+      <Container>
+        <Row>
+          <Col xs='12' sm='8' md='6'>
+            <div style={{ backgroundColor: `white`, padding: `1em` }}>
+              <h2>Our Facilities</h2>
+              <p>
+                From athletics to the arts, our 175-acre campus in Danvers offers exceptional facilities including state-of-the-art gymnasiums, theater, studios, labs, athletic fields, two swimming pools and much more.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    <section id="contact-section" style={{
+      display: `flex`,
+      flexFlow: `column`,
+      alignItems: `center`,
+      justifyContent: `center`,
+      textAlign: `center`
+    }}>
+      <h2>Contact Info</h2>
+      <p>
+        If you have questions or would like to setup a tour of our campus, please call us at 978-774-1427.<br />
+        We are here to help in any way.
+      </p>
+      <Button>Enroll Now</Button>
+    </section>
   </Layout>
 )
 
