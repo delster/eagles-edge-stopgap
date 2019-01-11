@@ -32,7 +32,6 @@ const CampChristopherPage = () => (
         Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019
       </p>
     </section>
-    <div style={{ borderBottom: `1.5rem solid #f5b742` }} />
     <section id="welcome-section">
       <Container>
         <Row>
