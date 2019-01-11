@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { Container, Row, Col } from 'reactstrap';
 import Layout from '../components/layout'
 import HomeBlurb from '../components/homeblurb'
@@ -11,6 +12,7 @@ import FacilitiesImg from '../images/hp-facilities-img.jpg'
 
 const IndexPage = () => (
   <Layout>
+    <Helmet title="Eagles Edge | Home Page" />
     <section
       id="hero-section"
       style={{

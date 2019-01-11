@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { Container, Row, Col, Button } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Layout from '../components/layout'
@@ -12,6 +13,7 @@ import FacilitiesBackground from '../images/day-facilities-section-bg.jpg'
 
 const CampChristopherPage = () => (
   <Layout>
+    <Helmet title="Eagles Edge | Camp Christopher" />
     <section id="hero-section" style={{
       display: `flex`,
       flexFlow: `column`,
@@ -87,18 +89,18 @@ const CampChristopherPage = () => (
             >
               <p>Day Camp features a wide variety of exciting, hands-on activities including:</p>
               <ul style={{ listStyleType: `none`, paddingLeft: `0` }}>
-                <li><FontAwesomeIcon icon='swimmer' style={{ marginRight: `1em` }} />Swimming</li>
-                <li><FontAwesomeIcon icon='palette' style={{ marginRight: `1em` }} />Art</li>
-                <li><FontAwesomeIcon icon='music' style={{ marginRight: `1em` }} />Music</li>
-                <li><FontAwesomeIcon icon='football-ball' style={{ marginRight: `1em` }} />Sports</li>
-                <li><FontAwesomeIcon icon='theater-masks' style={{ marginRight: `1em` }} />Performing Arts</li>
-                <li><FontAwesomeIcon icon='flask-potion' style={{ marginRight: `1em` }} />Science & Nature</li>
-                <li><FontAwesomeIcon icon='bow-arrow' style={{ marginRight: `1em` }} />Archery</li>
-                <li><FontAwesomeIcon icon='trees' style={{ marginRight: `1em` }} />Outdoor Adventure</li>
-                <li><FontAwesomeIcon icon='mountain' style={{ marginRight: `1em` }} />Rock Climbing</li>
-                <li><FontAwesomeIcon icon='watch-fitness' style={{ marginRight: `1em` }} />Fun Fitness</li>
-                <li><FontAwesomeIcon icon='octagon' style={{ marginRight: `1em` }} />Gaga</li>
-                <li><FontAwesomeIcon icon='fist-raised' style={{ marginRight: `1em` }} />Martial Arts</li>
+                <li><FontAwesomeIcon fixedWidth icon='swimmer' style={{ marginRight: `1em` }} />Swimming</li>
+                <li><FontAwesomeIcon fixedWidth icon='palette' style={{ marginRight: `1em` }} />Art</li>
+                <li><FontAwesomeIcon fixedWidth icon='music' style={{ marginRight: `1em` }} />Music</li>
+                <li><FontAwesomeIcon fixedWidth icon='football-ball' style={{ marginRight: `1em` }} />Sports</li>
+                <li><FontAwesomeIcon fixedWidth icon='theater-masks' style={{ marginRight: `1em` }} />Performing Arts</li>
+                <li><FontAwesomeIcon fixedWidth icon='flask-potion' style={{ marginRight: `1em` }} />Science & Nature</li>
+                <li><FontAwesomeIcon fixedWidth icon='bow-arrow' style={{ marginRight: `1em` }} />Archery</li>
+                <li><FontAwesomeIcon fixedWidth icon='trees' style={{ marginRight: `1em` }} />Outdoor Adventure</li>
+                <li><FontAwesomeIcon fixedWidth icon='mountain' style={{ marginRight: `1em` }} />Rock Climbing</li>
+                <li><FontAwesomeIcon fixedWidth icon='watch-fitness' style={{ marginRight: `1em` }} />Fun Fitness</li>
+                <li><FontAwesomeIcon fixedWidth icon='octagon' style={{ marginRight: `1em` }} />Gaga</li>
+                <li><FontAwesomeIcon fixedWidth icon='fist-raised' style={{ marginRight: `1em` }} />Martial Arts</li>
               </ul>
             </div>
           </Col>
@@ -115,11 +117,11 @@ const CampChristopherPage = () => (
             >
               <p>Highlights also include:</p>
               <ul style={{ listStyleType: `none`, paddingLeft: `0` }}>
-                <li><FontAwesomeIcon icon='star' style={{ marginRight: `1em` }} />Theme days</li>
-                <li><FontAwesomeIcon icon='stars' style={{ marginRight: `1em` }} />Special Events</li>
-                <li><FontAwesomeIcon icon='campground' style={{ marginRight: `1em` }} />Camp Show</li>
-                <li><FontAwesomeIcon icon='tshirt' style={{ marginRight: `1em` }} />Sleepunder Pajama Party</li>
-                <li><FontAwesomeIcon icon='trophy-alt' style={{ marginRight: `1em` }} />Ultimate Games</li>
+                <li><FontAwesomeIcon fixedWidth icon='star' style={{ marginRight: `1em` }} />Theme days</li>
+                <li><FontAwesomeIcon fixedWidth icon='stars' style={{ marginRight: `1em` }} />Special Events</li>
+                <li><FontAwesomeIcon fixedWidth icon='campground' style={{ marginRight: `1em` }} />Camp Show</li>
+                <li><FontAwesomeIcon fixedWidth icon='tshirt' style={{ marginRight: `1em` }} />Sleepunder Pajama Party</li>
+                <li><FontAwesomeIcon fixedWidth icon='trophy-alt' style={{ marginRight: `1em` }} />Ultimate Games</li>
               </ul>
             </div>
           </Col>
