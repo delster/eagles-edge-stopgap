@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Layout from '../components/layout'
 
 const CampChristopherPage = () => (
@@ -46,7 +47,9 @@ const CampChristopherPage = () => (
       </Container>
     </section>
     <section id="about-section">
-
+      <Link to="/"><FontAwesomeIcon icon='envelope' /></Link>
+      <FontAwesomeIcon icon='key' />
+      <FontAwesomeIcon icon='badger-honey' />
     </section>
     <section id="scheduling-section">
       <Container>

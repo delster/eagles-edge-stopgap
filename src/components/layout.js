@@ -2,10 +2,14 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faEnvelope, faKey, faBadgerHoney } from '@fortawesome/pro-solid-svg-icons'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './all.css'
 import Header from './header'
 import Footer from './footer'
+
+library.add(faEnvelope, faKey, faBadgerHoney)
 
 const Layout = ({ children }) => (
   <StaticQuery
