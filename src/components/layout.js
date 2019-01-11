@@ -3,13 +3,16 @@ import { Helmet } from 'react-helmet'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faEnvelope, faKey, faBadgerHoney } from '@fortawesome/pro-solid-svg-icons'
+import {
+  faSwimmer, faPalette, faMusic, faFootballBall, faTheaterMasks, faFlaskPotion, faBowArrow, faTrees, faMountain, faWatchFitness, faOctagon, faFistRaised, faStar, faStars, faCampground, faTshirt, faTrophyAlt
+} from '@fortawesome/pro-solid-svg-icons'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../fonts/proximanova.css'
 import './all.css'
 import Header from './header'
 import Footer from './footer'
 
-library.add(faEnvelope, faKey, faBadgerHoney)
+library.add(faSwimmer, faPalette, faMusic, faFootballBall, faTheaterMasks, faFlaskPotion, faBowArrow, faTrees, faMountain, faWatchFitness, faOctagon, faFistRaised, faStar, faStars, faCampground, faTshirt, faTrophyAlt)
 
 const Layout = ({ children }) => (
   <StaticQuery

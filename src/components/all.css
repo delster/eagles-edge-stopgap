@@ -1,11 +1,50 @@
+/* In a rush! Refactor later! */
+em { font-style: italic !important}
+strong {font-weight: 700 !important}
+
+
 /* Default Font */
 html, body, * {
-  font-family: "DIN 1451 W01 Engschrift"
+  font-family: "Proxima Nova", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 18px;
+}
+
+/* Headings */
+h1, .h1, h1 *,
+h2, .h2, h2 *,
+h3, .h3, h3 *,
+h4, .h4, h4 *,
+h5, .h5, h5 *,
+h6, .h6, h6 * {
+  font-family: "DIN 1451 W01 Engschrift", Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: .5em;
+  text-transform: uppercase;
+}
+
+h1, .h1, h1 * {
+  font-size: 9vw;
+  margin: 0;
+}
+
+h2, .h2, h2 * {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h3, .h3, h3 * {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 /* Default <section> spacing */
-section {
-  padding: 4rem 0;
+section { padding: 4rem 0 }
+
+/* Img Fix */
+.img-wrap img {
+  height: auto;
+  width: 100%;
 }
 
 /* Lines to the left and right of Headings */
@@ -21,4 +60,18 @@ section {
 .lined-heading span {
   background-color: white;
   padding: 0 .5em;
+}
+
+@media(max-width:991px) {
+  .reverse-stacked {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+@media(max-width:767px) {
+  #ourprogram-section .col-12 > * {
+    margin: 0 auto;
+    width: 100%;
+    max-width: none;
+  }
 }

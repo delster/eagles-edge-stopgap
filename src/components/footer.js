@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap'
+import FooterLogo from '../images/footer-stjohns-logo.png'
 
 const Footer = () => (
   <footer id="main-footer">
@@ -12,18 +13,31 @@ const Footer = () => (
     <section style={{ display: `flex`, color: `white`, backgroundColor: `#054c6c`, padding: `3rem 0` }}>
       <Container>
         <Row>
-          <Col>
-            [image placeholder]
+          <Col xs='12' md='4' lg='6' xl='7'>
+            <div className="img-wrap" style={{ maxWidth: `180px` }}>
+              <a href="https://www.stjohnsprep.org/">
+                <img src={FooterLogo} alt="St. John's Logo" />
+              </a>
+            </div>
           </Col>
-          <Col>
-            [address, phone, email]
+          <Col xs='12' md='8' lg='6' xl='5'
+            style={{ display: `flex`, alignItems: `flex-end`, justifyContent: `space-between` }}
+          >
+            <address style={{ marginBottom: `0` }}>
+              72 Spring St <br />
+              Danvers, MA 01923
+              </address>
+            <span>978-774-1050</span>
+            <a href="mailto:eaglesedge@stjohnsprep.org" style={{ color: `white` }}>EMAIL US</a>
           </Col>
         </Row>
       </Container>
     </section>
-    <section style={{ padding: `2rem 0 1rem` }}>
+    <section style={{ padding: `1rem 0` }}>
       <Container>
-        © {new Date().getFullYear()} Eagles Edge. All Rights Reserved.
+        <p style={{ fontSize: `13px`, fontWeight: `600`, marginBottom: `0` }}>
+          © {new Date().getFullYear()} Eagles Edge. All Rights Reserved.
+        </p>
       </Container>
     </section>
   </footer>

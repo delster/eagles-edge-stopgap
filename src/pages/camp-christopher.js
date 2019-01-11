@@ -1,29 +1,45 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Container, Row, Col, Button } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Layout from '../components/layout'
+import HeroBackground from '../images/day-hero-bg.jpg'
+import WelcomeImg from '../images/day-welcome-img.jpg'
+import OurProgramBackground from '../images/day-program-section-bg.jpg'
+import SchedulingImg from '../images/day-schedule-img.jpg'
+import FeaturedProgramImg from '../images/day-aquatics-img.jpg'
+import OurStaffImg from '../images/day-staff-img.jpg'
+import FacilitiesBackground from '../images/day-facilities-section-bg.jpg'
 
 const CampChristopherPage = () => (
   <Layout>
-    <Link to="/">Home Page</Link>
     <section id="hero-section" style={{
       display: `flex`,
       flexFlow: `column`,
       alignItems: `center`,
       justifyContent: `center`,
-      textAlign: `center`
+      height: `32vw`,
+      padding: `0`,
+      color: `white`,
+      textAlign: `center`,
+      backgroundImage: `url(${HeroBackground})`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
     }}>
       <h1>Camp Christopher</h1>
-      <p>Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019</p>
+      <p style={{ fontSize: `26px`, textTransform: `uppercase` }}>
+        Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019
+      </p>
     </section>
+    <div style={{ borderBottom: `1.5rem solid #f5b742` }} />
     <section id="welcome-section">
       <Container>
         <Row>
-          <Col xs='6'>
-            <img src="" />
+          <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={WelcomeImg} alt="placeholder" />
+            </div>
           </Col>
-          <Col xs='6'>
+          <Col xs='12' lg='6'>
             <h2>Welcome</h2>
             <p>
               Dear Camp Families, <br />
@@ -40,23 +56,82 @@ const CampChristopherPage = () => (
               </p>
             <p>
               Ryan Bird <br />
-              Director of Summer Programs
+              Director of Auxiliary Programs
             </p>
           </Col>
         </Row>
       </Container>
     </section>
-    <section id="about-section">
-      <Link to="/"><FontAwesomeIcon icon='envelope' /></Link>
-      <FontAwesomeIcon icon='key' />
-      <FontAwesomeIcon icon='badger-honey' />
+    <section id="ourprogram-section" style={{
+      backgroundImage: `url(${OurProgramBackground})`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    }}>
+      <Container style={{ textAlign: `center` }}>
+        <h2 style={{ color: `white` }}>Our Program</h2>
+        <p style={{ marginBottom: `2em` }}>
+          Leading all of the programs and activities is our team of experienced, caring and talented camp staff. On day one, our staff will be ready to encourage camper growth and development, act as role models, foster friendships, and make camp a positive and fun experience for everyone.
+        </p>
+        <Row>
+          <Col xs='12' md='6'>
+            <div
+              style={{
+                color: `black`,
+                backgroundColor: `white`,
+                height: `100%`,
+                maxWidth: `400px`,
+                marginLeft: `auto`,
+                padding: `1.5em`,
+                textAlign: `left`,
+              }}
+            >
+              <p>Day Camp features a wide variety of exciting, hands-on activities including:</p>
+              <ul style={{ listStyleType: `none`, paddingLeft: `0` }}>
+                <li><FontAwesomeIcon icon='swimmer' style={{ marginRight: `1em` }} />Swimming</li>
+                <li><FontAwesomeIcon icon='palette' style={{ marginRight: `1em` }} />Art</li>
+                <li><FontAwesomeIcon icon='music' style={{ marginRight: `1em` }} />Music</li>
+                <li><FontAwesomeIcon icon='football-ball' style={{ marginRight: `1em` }} />Sports</li>
+                <li><FontAwesomeIcon icon='theater-masks' style={{ marginRight: `1em` }} />Performing Arts</li>
+                <li><FontAwesomeIcon icon='flask-potion' style={{ marginRight: `1em` }} />Science & Nature</li>
+                <li><FontAwesomeIcon icon='bow-arrow' style={{ marginRight: `1em` }} />Archery</li>
+                <li><FontAwesomeIcon icon='trees' style={{ marginRight: `1em` }} />Outdoor Adventure</li>
+                <li><FontAwesomeIcon icon='mountain' style={{ marginRight: `1em` }} />Rock Climbing</li>
+                <li><FontAwesomeIcon icon='watch-fitness' style={{ marginRight: `1em` }} />Fun Fitness</li>
+                <li><FontAwesomeIcon icon='octagon' style={{ marginRight: `1em` }} />Gaga</li>
+                <li><FontAwesomeIcon icon='fist-raised' style={{ marginRight: `1em` }} />Martial Arts</li>
+              </ul>
+            </div>
+          </Col>
+          <Col xs='12' md='6'>
+            <div
+              style={{
+                color: `black`,
+                backgroundColor: `white`,
+                height: `100%`,
+                maxWidth: `400px`,
+                padding: `1.5em`,
+                textAlign: `left`,
+              }}
+            >
+              <p>Highlights also include:</p>
+              <ul style={{ listStyleType: `none`, paddingLeft: `0` }}>
+                <li><FontAwesomeIcon icon='star' style={{ marginRight: `1em` }} />Theme days</li>
+                <li><FontAwesomeIcon icon='stars' style={{ marginRight: `1em` }} />Special Events</li>
+                <li><FontAwesomeIcon icon='campground' style={{ marginRight: `1em` }} />Camp Show</li>
+                <li><FontAwesomeIcon icon='tshirt' style={{ marginRight: `1em` }} />Sleepunder Pajama Party</li>
+                <li><FontAwesomeIcon icon='trophy-alt' style={{ marginRight: `1em` }} />Ultimate Games</li>
+              </ul>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
     <section id="scheduling-section">
       <Container>
-        <Row>
-          <Col xs='6'>
+        <Row className="reverse-stacked">
+          <Col xs='12' lg='6'>
             <h2>Flexible Scheduling Available</h2>
-            <h3>Camp Details</h3>
+            <h3 style={{ color: `#f5b742` }}>Camp Details</h3>
             <p> <strong>Camp Dates—</strong> June 24 to August 16, 2019 </p>
             <p> <strong>Sessions—</strong> 2, 4, 6 and 8-week options available </p>
             <p> <strong>Schedule—</strong> Monday through Friday from 9:00am to 3:45pm </p>
@@ -64,8 +139,10 @@ const CampChristopherPage = () => (
             <p> <strong>Transportation—</strong> Buses serve convenient locations in Andover, Georgetown, Lynnfield, Malden, Marblehead, Melrose, Middleton, Newburyport, North Andover, Reading, Salem, Swampscott, and Wakefield </p>
             <p> <strong>What to Bring—</strong> Bathing suit, towel, hat, sneakers, sunscreen, water bottle. </p>
           </Col>
-          <Col xs='6'>
-            <img src="" />
+          <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={SchedulingImg} alt="placeholder" />
+            </div>
           </Col>
         </Row>
       </Container>
@@ -76,11 +153,13 @@ const CampChristopherPage = () => (
     }}>
       <Container>
         <Row>
-          <Col xs='6'>
-            <img src="" />
+          <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={FeaturedProgramImg} alt="placeholder" />
+            </div>
           </Col>
-          <Col xs='6'>
-            <h2>Featured Program: <br /> Aquatics</h2>
+          <Col xs='12' lg='6'>
+            <h2>Featured Program: Aquatics</h2>
             <p>Our Swim Program features both outdoor and indoor pools! Rain or shine we are swimming every day!! From our outdoor pool to our brand new 8-lane indoor pool, we have the facilities for beginning swimmers to the most advanced swimmers.</p>
             <p>Our program builds confidence and enhances skills. Led by trained instructors and our certified Red Cross lifeguards, our program has a tradition of success with swimmers at all levels—from beginners with no experience to advanced swimmers.</p>
             <p>Getting Started: Swimmers are tested on the first day of camp to determine their level. Levels change as swimmers progress.</p>
@@ -93,23 +172,35 @@ const CampChristopherPage = () => (
     </section>
     <section id="staff-section">
       <Container>
-        <Row>
-          <Col xs='6'>
+        <Row className="reverse-stacked">
+          <Col xs='12' lg='6'>
             <h2>Our Staff</h2>
             <p>
               We employ exceptional staff members consisting of teachers, college students and graduate students, many of whom are pursuing degrees in Early Childhood, Elementary, Secondary and Physical Education and other related fields. All of our staff are carefully screened through a process of interviews, reference verifications and background checks. In addition to pre-camp training, staff members are required to attend training workshops and meetings while working on staff. A registered nurse is also available during the regular camp hours. The nurse oversees any medication required by campers and contacts parents if a child becomes ill during the camp day.
             </p>
           </Col>
-          <Col xs='6'>
-            <img src="" />
+          <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={OurStaffImg} alt="placeholder" />
+            </div>
           </Col>
         </Row>
       </Container>
     </section>
-    <section id="facilities-section">
+    <section id="facilities-section"
+      style={{
+        display: `flex`,
+        flexFlow: `column`,
+        alignItems: `center`,
+        justifyContent: `center`,
+        backgroundImage: `url(${FacilitiesBackground})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+      }}
+    >
       <Container>
         <Row>
-          <Col xs='12' sm='8' md='6'>
+          <Col xs='12' sm='10' md='8' lg='5'>
             <div style={{ backgroundColor: `white`, padding: `1em` }}>
               <h2>Our Facilities</h2>
               <p>
@@ -132,7 +223,22 @@ const CampChristopherPage = () => (
         If you have questions or would like to setup a tour of our campus, please call us at 978-774-1427.<br />
         We are here to help in any way.
       </p>
-      <Button>Enroll Now</Button>
+      <Button
+        href="http://eaglesedge.campbrainregistration.com"
+        style={{
+          color: `white`,
+          backgroundColor: `#137cac`,
+          fontWeight: `500`,
+          letterSpacing: `1px`,
+          textTransform: `uppercase`,
+          marginLeft: `1em`,
+          padding: `.25em .5em`,
+          border: `none`,
+          borderRadius: `0`
+        }}
+      >
+        Enroll Now
+      </Button>
     </section>
   </Layout>
 )
