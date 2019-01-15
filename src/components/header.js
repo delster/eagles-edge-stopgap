@@ -8,14 +8,14 @@ const Header = props => (
   <header id="main-header" style={{ borderTop: `2rem solid #054c6c` }}>
     <Container>
       <Row style={{ display: `flex`, alignItems: `center`, margin: `.5em 0` }}>
-        <Col xs='3'>
+        <Col xs='5' sm='3'>
           <div className="img-wrap">
             <Link to='/'>
               <img src={Logo} alt="Eagles Edge logo" style={{ maxHeight: `80px` }} />
             </Link>
           </div>
         </Col>
-        <Col xs='9' style={{ textAlign: `right` }}>
+        <Col xs='7' sm='9' style={{ textAlign: `right` }}>
           <div
             style={{
               display: `inline-block`,

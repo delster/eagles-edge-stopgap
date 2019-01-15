@@ -4,11 +4,11 @@ import { Container, Row, Col, Button } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Layout from '../components/layout'
 import HeroBackground from '../images/day-hero-bg.jpg'
-import WelcomeImg from '../images/day-welcome-img.jpg'
+import WelcomeImg from '../images/day-welcome-img.png'
 import OurProgramBackground from '../images/day-program-section-bg.jpg'
 import SchedulingImg from '../images/day-schedule-img.jpg'
 import FeaturedProgramImg from '../images/day-aquatics-img.jpg'
-import OurStaffImg from '../images/day-staff-img.jpg'
+import OurStaffImg from '../images/day-staff-img.png'
 import FacilitiesBackground from '../images/day-facilities-section-bg.jpg'
 
 const CampChristopherPage = () => (

@@ -37,7 +37,7 @@ const IndexPage = () => (
         <Col xs='12' sm='6' xl='3' style={{ padding: `0` }}>
           <HomeBlurb
             color='#f5b742'
-            title='Summer Day Camp'
+            title='Day Camp'
             imgsrc={ServiceBlurbImg1}
             content='A traditional day camp on our beautiful 175 acre campus located in Danvers for girls and boys, ages 4-12 years old. Campers explore a variety of age appropriate activities while making good friends and having fun in the sun.'
             buttonText='Explore'
@@ -76,7 +76,7 @@ const IndexPage = () => (
     <section id="mission-section">
       <Container>
         <h2 className="lined-heading"><span>Mission</span></h2>
-        <p style={{ textAlign: `center` }}>EAGLES/EDGE empowers girls and boys to learn, thrive, and master new skills in an atmosphere that fosters friendships and a growth mindset. Our summer day camp program, academic classes, sports camps, and specialty camps offer wide-ranging opportunities for young people ages 5 to 18 to gain self-confidence and develop their personal edge on the path to becoming their best selves.</p>
+        <p style={{ textAlign: `center` }}>EAGLES/EDGE empowers girls and boys to learn, thrive, and master new skills in an atmosphere that fosters friendships and a growth mindset. Our summer day camp program, academic classes, sports camps, and specialty camps offer wide-ranging opportunities for young people ages 4 to 18 to gain self-confidence and develop their personal edge on the path to becoming their best selves.</p>
       </Container>
     </section>
     <section id="facilities-section" style={{ background: `#f0f0f0` }}>
@@ -91,13 +91,13 @@ const IndexPage = () => (
             <h2>Facilities</h2>
             <p>St. John's Prep is located on a handsome 175-acre campus, offering an attractive blend of contemporary facilities, state-of-the-art technology, traditional architecture and spacious grounds.</p>
             <p>Some of the key buildings and spaces for summer programming include:</p>
-            <ol>
+            <ul>
               <li>Keefe Academic Center: houses multiple classrooms and labs.</li>
               <li>Ryken Center for the Arts: provides space for printmaking, painting, drama and other performing arts. </li>
               <li>Kaneb Theatre: seats 350-400 with high-quality sound and lighting equipment.</li>
               <li>Leo and Joan Mahoney Wellness Center, Memorial Gymnasium, and various turf and grass playing fields: offer ideal athletic venues along with both indoor and outdoor pools</li>
               <li>Outdoor space: for students and campers to play and enjoy games</li>
-            </ol>
+            </ul>
             <p>Located near several interstates, St. John's is just 30 minutes north of Boston by car. The campus is convenient to all of the North Shore's museums, restaurants, beaches and attractions.</p>
           </Col>
         </Row>
