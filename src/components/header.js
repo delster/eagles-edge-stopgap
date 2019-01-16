@@ -24,7 +24,7 @@ const Header = props => (
               textTransform: `uppercase`
             }}
           >
-            <span style={{ fontSize: `.75rem` }}> 978-774-1050 </span>
+            <span style={{ fontSize: `.75rem` }}> 978-774-1427 </span>
             <span style={{ color: `#db672b`, fontSize: `.8rem`, margin: `0 .5em` }}>|</span>
             <a href="mailto:eaglesedge@stjohnsprep.org" style={{ color: `#054c6c`, fontSize: `.75rem` }}>EMAIL US</a>
 
@@ -45,7 +45,7 @@ const Header = props => (
         </Col>
       </Row>
     </Container>
-  </header >
+  </header>
 )
 
 export default Header

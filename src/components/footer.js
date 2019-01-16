@@ -27,7 +27,7 @@ const Footer = () => (
               72 Spring St <br />
               Danvers, MA 01923
               </address>
-            <span>978-774-1050</span>
+            <span>978-774-1427</span>
             <a href="mailto:eaglesedge@stjohnsprep.org" style={{ color: `white` }}>EMAIL US</a>
           </Col>
         </Row>

@@ -3,12 +3,13 @@ import Helmet from 'react-helmet'
 import { Container, Row, Col, Button } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Layout from '../components/layout'
-import HeroBackground from '../images/day-hero-bg.jpg'
+import HeroBackground from '../images/daycamp-bg.jpg'
+import HeroLogoImg from '../images/daycamp-logo-sun.png'
 import WelcomeImg from '../images/day-welcome-img.png'
 import OurProgramBackground from '../images/day-program-section-bg.jpg'
 import SchedulingImg from '../images/day-schedule-img.jpg'
 import FeaturedProgramImg from '../images/day-aquatics-img.jpg'
-import OurStaffImg from '../images/day-staff-img.png'
+import OurStaffImg from '../images/pool-img.jpg'
 import FacilitiesBackground from '../images/day-facilities-section-bg.jpg'
 
 const CampChristopherPage = () => (
@@ -16,7 +17,7 @@ const CampChristopherPage = () => (
     <Helmet title="Eagles Edge | Camp Christopher" />
     <section id="hero-section" style={{
       display: `flex`,
-      flexFlow: `column`,
+      flexFlow: `row`,
       alignItems: `center`,
       justifyContent: `center`,
       height: `32vw`,
@@ -27,10 +28,16 @@ const CampChristopherPage = () => (
       backgroundPosition: 'center',
       backgroundSize: 'cover',
     }}>
-      <h1>Camp Christopher</h1>
-      <p style={{ fontSize: `26px`, textTransform: `uppercase` }}>
-        Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019
-      </p>
+      <div>
+        <img src={HeroLogoImg} alt='sun logo' style={{ marginRight: `1vw`, width: `9vw` }} />
+      </div>
+      <div>
+        <h1>Camp Christopher
+          <p style={{ fontSize: `2.27vw`, textTransform: `uppercase` }}>
+            Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019
+          </p>
+        </h1>
+      </div>
     </section>
     <section id="welcome-section">
       <Container>
