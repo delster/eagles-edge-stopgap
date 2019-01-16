@@ -8,8 +8,8 @@ import HeroLogoImg from '../images/daycamp-logo-sun.png'
 import WelcomeImg from '../images/day-welcome-img.png'
 import OurProgramBackground from '../images/day-program-section-bg.jpg'
 import SchedulingImg from '../images/day-schedule-img.jpg'
-import FeaturedProgramImg from '../images/day-aquatics-img.jpg'
-import OurStaffImg from '../images/pool-img.jpg'
+import FeaturedProgramImg from '../images/pool-img.jpg'
+import OurStaffImg from '../images/day-staff-img.png'
 import FacilitiesBackground from '../images/day-facilities-section-bg.jpg'
 
 const CampChristopherPage = () => (
