@@ -32,8 +32,8 @@ const CampChristopherPage = () => (
         <img src={HeroLogoImg} alt='sun logo' style={{ marginRight: `1vw`, width: `9vw` }} />
       </div>
       <div>
-        <h1>Camp Christopher
-          <p style={{ fontSize: `2.27vw`, textTransform: `uppercase` }}>
+        <h1 style={{ textAlign: `left` }}>Camp Christopher
+          <p style={{ fontSize: `2.27vw`, marginTop: `-.75em`, textTransform: `uppercase` }}>
             Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019
           </p>
         </h1>
