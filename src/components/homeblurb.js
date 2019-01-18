@@ -12,7 +12,7 @@ const HomeBlurb = ({ color, title, imgsrc, content, buttonText, buttonLink, isRe
     }}
   >
     <CardTitle style={{ backgroundColor: color, marginBottom: `0` }}>
-      <h3 style={{ color: `white`, marginBottom: `0`, padding: `1.25rem` }}>{title}</h3>
+      <h3 style={{ color: `white`, marginBottom: `0`, padding: `1.25rem .38rem` }}>{title}</h3>
     </CardTitle>
     <div className="card-image" style={{ flex: `1 1 20%` }}>
       <img src={imgsrc} alt="kids at camp" style={{ height: `100%`, width: `100%` }} />
