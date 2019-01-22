@@ -142,7 +142,7 @@ const CampChristopherPage = () => (
             <h3 style={{ color: `#f5b742` }}>Camp Details</h3>
             <p> <strong>Camp Dates—</strong> June 24 to August 16, 2019 </p>
             <p> <strong>Sessions—</strong> 2, 4, 6 and 8-week options available </p>
-            <p> <strong>Schedule—</strong> Monday through Friday from 9:00am to 3:45pm </p>
+            <p> <strong>Schedule—</strong> Monday through Friday from 9:00am to 4pm </p>
             <p> <strong>Extended Day—</strong> Options include arriving as early as 8:00am and staying until 6:00pm </p>
             <p> <strong>Transportation—</strong> Buses serve convenient locations in Andover, Georgetown, Lynnfield, Malden, Marblehead, Melrose, Middleton, Newburyport, North Andover, Reading, Salem, Swampscott, and Wakefield </p>
             <p> <strong>What to Bring—</strong> Bathing suit, towel, hat, sneakers, sunscreen, water bottle. </p>
