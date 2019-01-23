@@ -10,7 +10,7 @@ import OurProgramBackground from '../images/day-program-section-bg.jpg'
 import SchedulingImg from '../images/day-schedule-img.jpg'
 import FeaturedProgramImg from '../images/pool-img.jpg'
 import OurStaffImg from '../images/day-staff-img.png'
-import FacilitiesBackground from '../images/day-facilities-section-bg.jpg'
+import FacilitiesBackground from '../images/day-facilities-section-bg2.jpg'
 
 const CampChristopherPage = () => (
   <Layout>
