@@ -14,7 +14,7 @@ import FacilitiesBackground from '../images/day-facilities-section-bg.jpg'
 
 const CampChristopherPage = () => (
   <Layout>
-    <Helmet title="Eagles Edge | Camp Christopher" />
+    <Helmet title="Camp Christopher | Eagles Edge" />
     <section id="hero-section" style={{
       display: `flex`,
       flexFlow: `row`,
