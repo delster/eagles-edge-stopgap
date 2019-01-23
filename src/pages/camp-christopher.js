@@ -50,22 +50,17 @@ const CampChristopherPage = () => (
           <Col xs='12' lg='6'>
             <h2>Welcome</h2>
             <p>
-              Dear Camp Families, <br />
-              Since 1946, Camp Christopher has been operating on the campus of St. John’s Prep. We are very excited to announce that camp will be even better than ever in 2019! We are making several enhancements and additions to the program including the following:
-            </p>
-            <ul>
-              <li><strong>New Activities</strong> - science, art, music, theater; fun fitness and martial arts are being added along with our favorites like swimming, sports and gaga!</li>
-              <li><strong>New Special Events</strong> - fun theme days, a new camp show, “sleepunder” pajama party, and Ultimate Games are all being planned!</li>
-              <li><strong>Honored Traditions</strong> - we are continuing our existing traditions and bringing in new traditions!</li>
-              <li><strong>Our Staff</strong> - we are enhancing our staff by adding new team members with extensive camp experience!</li>
-            </ul>
-            <p>
-              In addition to these changes, we are also adding several SPECIALTY CAMPS and SPORTS CAMPS within Eagles/Edge at St. John’s Prep. We’re all very excited to make this the best summer ever for our campers!
-              </p>
-            <p>
-              Ryan Bird <br />
-              Director of Auxiliary Programs
-            </p>
+              Here’s just some of what campers, ages 4 to 12, will find at Camp Christopher this summer!</p>
+
+<p><strong>New Activities:</strong> Science, art, music, theater, fitness and martial arts are all being added to favorite activities like swimming, sports and gaga!</p>
+
+<p><strong>New Special Events:</strong> We’re planning fun new events like theme days, a camp show, “sleepunder” pajama parties, and Ultimate Games. Get ready to have a blast!</p>
+
+<p><strong>Honored Traditions:</strong> We’re introducing new traditions that will become as popular as longtime camp favorites!</p>
+
+<p><strong>Talented Staff:</strong> New team members with extensive camp experience are joining our talented staff this summer!</p>
+
+<p>In addition to Camp Christopher, we’re introducing new coed specialty camps and sports camps as part of Eagles/Edge programs at St. John’s Prep. We’re all excited to make this the best summer ever for our campers!</p>
           </Col>
         </Row>
       </Container>
@@ -78,7 +73,7 @@ const CampChristopherPage = () => (
       <Container style={{ textAlign: `center` }}>
         <h2 style={{ color: `white` }}>Our Program</h2>
         <p style={{ marginBottom: `2em` }}>
-          Leading all of the programs and activities is our team of experienced, caring and talented camp staff. On day one, our staff will be ready to encourage camper growth and development, act as role models, foster friendships, and make camp a positive and fun experience for everyone.
+          Leading all of the programs and activities is our team of experienced, caring and talented camp staff. On day one, our staff will be ready to encourage camper growth and development, act as role models, foster friendships, and make camp a positive and fun experience.
         </p>
         <Row>
           <Col xs='12' md='6'>
@@ -123,7 +118,7 @@ const CampChristopherPage = () => (
             >
               <p>Highlights also include:</p>
               <ul style={{ listStyleType: `none`, paddingLeft: `0` }}>
-                <li><FontAwesomeIcon fixedWidth icon='star' style={{ marginRight: `1em` }} />Theme days</li>
+                <li><FontAwesomeIcon fixedWidth icon='star' style={{ marginRight: `1em` }} />Theme Days</li>
                 <li><FontAwesomeIcon fixedWidth icon='stars' style={{ marginRight: `1em` }} />Special Events</li>
                 <li><FontAwesomeIcon fixedWidth icon='campground' style={{ marginRight: `1em` }} />Camp Show</li>
                 <li><FontAwesomeIcon fixedWidth icon='tshirt' style={{ marginRight: `1em` }} />Sleepunder Pajama Party</li>
@@ -138,14 +133,14 @@ const CampChristopherPage = () => (
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
-            <h2>Flexible Scheduling Available</h2>
+            <h2>Family Flexible Scheduling</h2>
             <h3 style={{ color: `#f5b742` }}>Camp Details</h3>
             <p> <strong>Camp Dates—</strong> June 24 to August 16, 2019 </p>
-            <p> <strong>Sessions—</strong> 2, 4, 6 and 8-week options available </p>
-            <p> <strong>Schedule—</strong> Monday through Friday from 9:00am to 4pm </p>
-            <p> <strong>Extended Day—</strong> Options include arriving as early as 8:00am and staying until 6:00pm </p>
+            <p> <strong>Sessions—</strong> 1, 2, 4, 6 and 8-week options available </p>
+            <p> <strong>Schedule—</strong> Monday through Friday from 9 am to 4 pm </p>
+            <p> <strong>Extended Day—</strong> Arrive as early as 8 am and stay until 6 pm </p>
             <p> <strong>Transportation—</strong> Buses serve convenient locations in Andover, Georgetown, Lynnfield, Malden, Marblehead, Melrose, Middleton, Newburyport, North Andover, Reading, Salem, Swampscott, and Wakefield </p>
-            <p> <strong>What to Bring—</strong> Bathing suit, towel, hat, sneakers, sunscreen, water bottle. </p>
+            <p> <strong>What to Bring—</strong> Bathing suit, towel, hat, sneakers, sunscreen, water bottle </p>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
@@ -168,12 +163,10 @@ const CampChristopherPage = () => (
           </Col>
           <Col xs='12' lg='6'>
             <h2>Featured Program: Aquatics</h2>
-            <p>Our Swim Program features both outdoor and indoor pools! Rain or shine we are swimming every day!! From our outdoor pool to our brand new 8-lane indoor pool, we have the facilities for beginning swimmers to the most advanced swimmers.</p>
-            <p>Our program builds confidence and enhances skills. Led by trained instructors and our certified Red Cross lifeguards, our program has a tradition of success with swimmers at all levels—from beginners with no experience to advanced swimmers.</p>
-            <p>Getting Started: Swimmers are tested on the first day of camp to determine their level. Levels change as swimmers progress.</p>
-            <p>Daily Lessons: Campers at every level receive a daily swim lesson.</p>
-            <p>Free Swim: In addition to a lesson, every day includes time for water play in the pool.</p>
-            <p>More pool time? Swimmers can head to the pool for their "camper's choice" time!</p>
+            <p>Our swim program takes advantage of our outdoor and indoor pools! With the guidance of trained instructors and certified Red Cross lifeguards, our swim program is the right fit for everyone, from beginning to advanced swimmers.</p>
+            <p><strong>Getting Started:</strong> Swimmers are tested on the first day of camp to determine their level. Levels change as swimmers progress.</p>
+            <p><strong>Daily Lessons:</strong> Campers at every level receive a daily swim lesson.</p>
+            <p><strong>Free Swim:</strong> In addition to lessons, every day includes free swim time. Swimmers can also head to the pool for "camper's choice" time!</p>
           </Col>
         </Row>
       </Container>
@@ -182,9 +175,9 @@ const CampChristopherPage = () => (
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
-            <h2>Our Staff</h2>
+            <h2>Camp Staff</h2>
             <p>
-              We employ exceptional staff members consisting of teachers, college students and graduate students, many of whom are pursuing degrees in Early Childhood, Elementary, Secondary and Physical Education and other related fields. All of our staff are carefully screened through a process of interviews, reference verifications and background checks. In addition to pre-camp training, staff members are required to attend training workshops and meetings while working on staff. A registered nurse is also available during the regular camp hours. The nurse oversees any medication required by campers and contacts parents if a child becomes ill during the camp day.
+              Our staff includes teachers, graduate students, and college students, many of whom are pursuing degrees in education,  physical education, and related fields. All staff are carefully screened through a process of interviews, reference verifications, and background checks. All staff attend pre-camp training and meetings. A registered nurse is on duty during regular camp hours. The nurse oversees medication required by campers and contacts parents if a child becomes ill during the camp day.
             </p>
           </Col>
           <Col xs='12' lg='6'>
@@ -212,7 +205,7 @@ const CampChristopherPage = () => (
             <div style={{ backgroundColor: `white`, padding: `1em` }}>
               <h2>Our Facilities</h2>
               <p>
-                From athletics to the arts, our 175-acre campus in Danvers offers exceptional facilities including state-of-the-art gymnasiums, theater, studios, labs, athletic fields, two swimming pools and much more.
+                From athletics to the arts, the 175-acre St. John’s Prep campus in Danvers offers exceptional facilities including field house, two pools, a theater, art studios, labs, turf playing fields and much more.
               </p>
             </div>
           </Col>
@@ -228,8 +221,7 @@ const CampChristopherPage = () => (
     }}>
       <h2>Contact Info</h2>
       <p>
-        If you have questions or would like to setup a tour of our campus, please call us at 978-774-1427.<br />
-        We are here to help in any way.
+        If you have questions or would like to set up a tour, please call us at 978-774-1427. We are here to help in any way.
       </p>
       <Button
         href="http://eaglesedge.campbrainregistration.com"

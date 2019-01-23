@@ -90,15 +90,13 @@ const IndexPage = () => (
           <Col xs='12' lg='6'>
             <h2>Facilities</h2>
             <p>Located on a beautiful 175-acre campus in Danvers, St. John’s Prep offers spacious contemporary facilities, state-of-the-art technology, extensive grounds, and dining facilities. </p>
-            <p>Some of the key buildings and spaces for summer programming include:</p>
-            <ul>
-              <li>Keefe Academic Center: houses multiple classrooms and labs.</li>
-              <li>Ryken Center for the Arts: provides space for printmaking, painting, drama and other performing arts. </li>
-              <li>Kaneb Theatre: seats 350-400 with high-quality sound and lighting equipment.</li>
-              <li>Leo and Joan Mahoney Wellness Center, Memorial Gymnasium, and various turf and grass playing fields: offer ideal athletic venues along with both indoor and outdoor pools</li>
-              <li>Outdoor space: for students and campers to play and enjoy games</li>
-            </ul>
-            <p>Located near several interstates, St. John's is just 30 minutes north of Boston by car. The campus is convenient to all of the North Shore's museums, restaurants, beaches and attractions.</p>
+            <p><strong>Fitness & Sports:</strong> Ideal venue for sports and fitness activities with Memorial Gymnasium and the Leo and Joan Mahoney Wellness Center and featuring an 8-lane indoor pool, indoor track, 6 basketball courts, 5 tennis courts, turf and grass playing fields and an outdoor pool.</p>
+
+<p><strong>Academic Facilities:</strong> State-of the-art classrooms, robotics lab, science labs, meeting spaces, and a spacious library are housed in the Brother Keefe, C.F.X. Academic Center, Xavier Hall, the A. E. Studzinski Library.</p>  
+
+<p><strong>The Arts:</strong> The Ryken Center for the Arts houses ceramics and art studios, a black box theater, and music rooms. Alumni Hall houses the 350-seat Keneb Theatre with high-quality sound and lighting.</p>
+
+<p>Located near several interstates, St. John's is just 30 minutes north of Boston by car and convenient to all of the North Shore's museums, restaurants, beaches and attractions.</p>
           </Col>
         </Row>
       </Container>
