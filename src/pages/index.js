@@ -12,7 +12,7 @@ import FacilitiesImg from '../images/hp-facilities-img.jpg'
 
 const IndexPage = () => (
   <Layout>
-    <Helmet title="Home | Eagles Edge" />
+    <Helmet title="Eagles Edge | Home Page" />
     <section
       id="hero-section"
       style={{
