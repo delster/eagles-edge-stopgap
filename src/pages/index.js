@@ -89,7 +89,7 @@ const IndexPage = () => (
           </Col>
           <Col xs='12' lg='6'>
             <h2>Facilities</h2>
-            <p>Located on a beautiful 175-acre campus in Danvers, St. John’s Prep offers spacious contemporary facilities, state-of-the-art technology, extensive grounds, and dining facilities.</p>
+            <p>Located on a beautiful 175-acre campus in Danvers, St. John’s Prep offers spacious contemporary facilities, state-of-the-art technology, extensive grounds, and dining facilities. </p>
             <p>Some of the key buildings and spaces for summer programming include:</p>
             <ul>
               <li>Keefe Academic Center: houses multiple classrooms and labs.</li>
