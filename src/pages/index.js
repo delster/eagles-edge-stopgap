@@ -39,7 +39,7 @@ const IndexPage = () => (
             color='#f5b742'
             title='Day Camp'
             imgsrc={ServiceBlurbImg1}
-            content='A traditional day camp on our beautiful 175 acre campus located in Danvers for girls and boys, ages 4-12 years old. Campers explore a variety of age appropriate activities while making good friends and having fun in the sun.'
+            content='Camp Christopher, our day camp for girls and boys ages 4 to 12, features a wide variety of exciting, hands-on activities including: swimming, art, music, sports, science, archery, special events, theme days and more!'
             buttonText='Explore'
             buttonLink="/camp-christopher"
             isReactLink />
@@ -49,7 +49,7 @@ const IndexPage = () => (
             color='#df7640'
             title='Specialty Camps'
             imgsrc={ServiceBlurbImg2}
-            content='EAGLES/EDGE Performing Arts and Specialty campers work with specialists from acting, and musical programs, crafting clay into their own designs on their very own spindle to diving into the tech world and experiencing 3D game design or the popular Minecraft and even take a lesson in photography.'
+            content='Our coed speciality programs offer unique opportunities to focus on everything from acting, music, pottery and photography to the latest tech, 3D-game design, and Minecraft!'
             buttonText='Enroll'
             buttonLink="http://eaglesedge.campbrainregistration.com" />
         </Col>
@@ -58,7 +58,7 @@ const IndexPage = () => (
             color='#9e9fa2'
             title='Sports Camps'
             imgsrc={ServiceBlurbImg3}
-            content='With our cutting edge and up-to-date facilities, EAGLES/EDGE sports camps empower student athletes to fine tune their skill set in a number of different sports lead by our top coaches and athletic trainers. Learning to compete, have fun, develop leadership and mental skill set to enhance the experience of the whole student.'
+            content='8+ sport-specific camps and a multi-sport camp empower boys and girls ages 6 to 18 to fine tune skills with the leadership of top coaches and athletic trainers and an emphasis on leadership and mental skills.'
             buttonText='Enroll'
             buttonLink="http://eaglesedge.campbrainregistration.com" />
         </Col>
@@ -67,7 +67,7 @@ const IndexPage = () => (
             color='#30bd94'
             title='Academic Enrichment'
             imgsrc={ServiceBlurbImg4}
-            content="The quality of EAGLES/EDGE Academic Enrichment camps matches the caliber of St. John's Prep commitment to excellence and providing endless, unique course offerings. Campers stay engaged to sharpen their minds for the upcoming school year."
+            content="Our academic enrichment programs reflect the high quality of St. John’s Prep courses with unique offerings that help students, girls and boys, hone their skills through programs offered in the summer and throughout the year."
             buttonText='Enroll'
             buttonLink="http://eaglesedge.campbrainregistration.com" />
         </Col>
@@ -89,7 +89,7 @@ const IndexPage = () => (
           </Col>
           <Col xs='12' lg='6'>
             <h2>Facilities</h2>
-            <p>St. John's Prep is located on a handsome 175-acre campus, offering an attractive blend of contemporary facilities, state-of-the-art technology, traditional architecture and spacious grounds.</p>
+            <p>Located on a beautiful 175-acre campus in Danvers, St. John’s Prep offers spacious contemporary facilities, state-of-the-art technology, extensive grounds, and dining facilities.</p>
             <p>Some of the key buildings and spaces for summer programming include:</p>
             <ul>
               <li>Keefe Academic Center: houses multiple classrooms and labs.</li>
