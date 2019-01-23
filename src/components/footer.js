@@ -24,7 +24,7 @@ const Footer = () => (
             style={{ display: `flex`, alignItems: `flex-end`, justifyContent: `space-between` }}
           >
             <address style={{ marginBottom: `0` }}>
-              72 Spring St <br />
+              72 Spring Street <br />
               Danvers, MA 01923
               </address>
             <span>978-774-1427</span>
