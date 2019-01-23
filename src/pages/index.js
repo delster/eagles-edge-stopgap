@@ -7,7 +7,7 @@ import HeroBackground from '../images/hp-hero-bg.jpg'
 import ServiceBlurbImg1 from '../images/hp-camps-summer.jpg'
 import ServiceBlurbImg2 from '../images/hp-camps-specialty.jpg'
 import ServiceBlurbImg3 from '../images/hp-camps-sports.jpg'
-import ServiceBlurbImg4 from '../images/hp-camps-academic.jpg'
+import ServiceBlurbImg4 from '../images/hp-camps-academic2.jpg'
 import FacilitiesImg from '../images/hp-facilities-img.jpg'
 
 const IndexPage = () => (

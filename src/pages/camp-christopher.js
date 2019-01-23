@@ -134,7 +134,6 @@ const CampChristopherPage = () => (
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
             <h2>Family Flexible Scheduling</h2>
-            <h3 style={{ color: `#f5b742` }}>Camp Details</h3>
             <p> <strong>Camp Dates—</strong> June 24 to August 16, 2019 </p>
             <p> <strong>Sessions—</strong> 1, 2, 4, 6 and 8-week options available </p>
             <p> <strong>Schedule—</strong> Monday through Friday from 9 am to 4 pm </p>
