@@ -176,7 +176,7 @@ const CampChristopherPage = () => (
           <Col xs='12' lg='6'>
             <h2>Camp Staff</h2>
             <p>
-              Our staff includes teachers, graduate students, and college students, many of whom are pursuing degrees in education,  physical education, and related fields. All staff are carefully screened through a process of interviews, reference verifications, and background checks. All staff attend pre-camp training and meetings. A registered nurse is on duty during regular camp hours. The nurse oversees medication required by campers and contacts parents if a child becomes ill during the camp day.
+              Our staff includes teachers, graduate students, and college students, many of whom are pursuing degrees in education, as well as high school students. All staff are carefully screened through a process of interviews, reference verifications, and background checks. All staff attend pre-camp training and meetings. A registered nurse is on duty during regular camp hours. The nurse oversees medication required by campers and contacts parents if a child becomes ill during the camp day.
             </p>
           </Col>
           <Col xs='12' lg='6'>

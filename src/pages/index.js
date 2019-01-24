@@ -67,7 +67,7 @@ const IndexPage = () => (
             color='#30bd94'
             title='Academic Enrichment'
             imgsrc={ServiceBlurbImg4}
-            content="Our academic enrichment programs reflect the high quality of St. John’s Prep courses with unique offerings that help students, girls and boys, hone their skills through programs offered in the summer and throughout the year."
+            content="In the tradition of academic excellence at St. John’s Prep, our academic enrichment program offers coed courses for students to hone their skills in the summer and during the school year."
             buttonText='Enroll'
             buttonLink="http://eaglesedge.campbrainregistration.com" />
         </Col>
