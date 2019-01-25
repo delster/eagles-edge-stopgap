@@ -33,7 +33,7 @@ const CampChristopherPage = () => (
       </div>
       <div>
         <h1 style={{ textAlign: `left` }}>Camp Christopher
-          <p style={{ fontSize: `2.27vw`, marginTop: `-.75em`, textTransform: `uppercase` }}>
+          <p style={{ fontFamily: `DIN`, fontSize: `1.5vw`, fontWeight: `700`, marginTop: `-.75em`, textTransform: `uppercase` }}>
             Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019
           </p>
         </h1>
@@ -52,15 +52,15 @@ const CampChristopherPage = () => (
             <p>
               Here’s just some of what campers, ages 4 to 12, will find at Camp Christopher this summer!</p>
 
-<p><strong>New Activities:</strong> Science, art, music, theater, fitness and martial arts are all being added to favorite activities like swimming, sports and gaga!</p>
+            <p><strong>New Activities:</strong> Science, art, music, theater, fitness and martial arts are all being added to favorite activities like swimming, sports and gaga!</p>
 
-<p><strong>New Special Events:</strong> We’re planning fun new events like theme days, a camp show, “sleepunder” pajama parties, and Ultimate Games. Get ready to have a blast!</p>
+            <p><strong>New Special Events:</strong> We’re planning fun new events like theme days, a camp show, “sleepunder” pajama parties, and Ultimate Games. Get ready to have a blast!</p>
 
-<p><strong>Honored Traditions:</strong> We’re introducing new traditions that will become as popular as longtime camp favorites!</p>
+            <p><strong>Honored Traditions:</strong> We’re introducing new traditions that will become as popular as longtime camp favorites!</p>
 
-<p><strong>Talented Staff:</strong> New team members with extensive camp experience are joining our talented staff this summer!</p>
+            <p><strong>Talented Staff:</strong> New team members with extensive camp experience are joining our talented staff this summer!</p>
 
-<p>In addition to Camp Christopher, we’re introducing new coed specialty camps and sports camps as part of Eagles/Edge programs at St. John’s Prep. We’re all excited to make this the best summer ever for our campers!</p>
+            <p>In addition to Camp Christopher, we’re introducing new coed specialty camps and sports camps as part of Eagles/Edge programs at St. John’s Prep. We’re all excited to make this the best summer ever for our campers!</p>
           </Col>
         </Row>
       </Container>

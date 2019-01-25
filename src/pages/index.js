@@ -29,7 +29,10 @@ const IndexPage = () => (
         justifyContent: `center`,
         height: `100%`
       }}>
-        <h1 style={{ color: `white` }}>Explore Your <strong>Edge</strong></h1>
+        <h1 style={{
+          color: `white`,
+          fontWeight: `400`
+        }}>Explore Your <strong style={{ fontWeight: `700` }}>Edge</strong></h1>
       </div>
     </section>
     <section id="services-section" style={{ padding: `0` }}>
@@ -92,11 +95,11 @@ const IndexPage = () => (
             <p>Located on a beautiful 175-acre campus in Danvers, St. John’s Prep offers spacious contemporary facilities, state-of-the-art technology, extensive grounds, and dining facilities. </p>
             <p><strong>Fitness & Sports:</strong> Ideal venue for sports and fitness activities with Memorial Gymnasium and the Leo and Joan Mahoney Wellness Center and featuring an 8-lane indoor pool, indoor track, 6 basketball courts, 5 tennis courts, turf and grass playing fields and an outdoor pool.</p>
 
-<p><strong>Academic Facilities:</strong> State-of the-art classrooms, robotics lab, science labs, meeting spaces, and a spacious library are housed in the Brother Keefe, C.F.X. Academic Center, Xavier Hall, the A. E. Studzinski Library.</p>  
+            <p><strong>Academic Facilities:</strong> State-of the-art classrooms, robotics lab, science labs, meeting spaces, and a spacious library are housed in the Brother Keefe, C.F.X. Academic Center, Xavier Hall, the A. E. Studzinski Library.</p>
 
-<p><strong>The Arts:</strong> The Ryken Center for the Arts houses ceramics and art studios, a black box theater, and music rooms. Alumni Hall houses the 350-seat Keneb Theatre with high-quality sound and lighting.</p>
+            <p><strong>The Arts:</strong> The Ryken Center for the Arts houses ceramics and art studios, a black box theater, and music rooms. Alumni Hall houses the 350-seat Keneb Theatre with high-quality sound and lighting.</p>
 
-<p>Located near several interstates, St. John's is just 30 minutes north of Boston by car and convenient to all of the North Shore's museums, restaurants, beaches and attractions.</p>
+            <p>Located near several interstates, St. John's is just 30 minutes north of Boston by car and convenient to all of the North Shore's museums, restaurants, beaches and attractions.</p>
           </Col>
         </Row>
       </Container>

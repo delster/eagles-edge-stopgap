@@ -2,7 +2,6 @@
 em { font-style: italic !important}
 strong {font-weight: 700 !important}
 
-
 /* Default Font */
 html, body, * {
   font-family: "Proxima Nova", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -16,7 +15,7 @@ h3, .h3, h3 *,
 h4, .h4, h4 *,
 h5, .h5, h5 *,
 h6, .h6, h6 * {
-  font-family: "DIN 1451 W01 Engschrift", Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+  font-family: "DINCond", Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
   letter-spacing: 2px;
   margin-bottom: .5em;
   text-transform: uppercase;
@@ -24,16 +23,18 @@ h6, .h6, h6 * {
 
 h1, .h1, h1 * {
   font-size: 9vw;
+  font-weight: 700;
   margin: 0;
 }
 
 h2, .h2, h2 * {
   font-size: 2.5rem;
+  font-weight: 700;
 }
 
 h3, .h3, h3 * {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
 }
 

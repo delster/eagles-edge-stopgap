@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'DIN';
+    src: url('./din/DINPro-Bold.woff2') format('woff2'),
+         url('./din/DINPro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINCond';
+    src: url('./din/DINWeb-Cond.woff2') format('woff2'),
+         url('./din/DINWeb-Cond.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINCond';
+    src: url('./din/DINWeb-CondBold.woff2') format('woff2'),
+         url('./din/DINWeb-CondBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINCond';
+    src: url('./din/DINWeb-CondBlack.woff2') format('woff2'),
+         url('./din/DINWeb-CondBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
