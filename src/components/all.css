@@ -47,6 +47,12 @@ section { padding: 4rem 0 }
   width: 100%;
 }
 
+/* Unstyle Bootstrap Tables */
+.table td,
+.table th {
+  border: none
+}
+
 /* Lines to the left and right of Headings */
 .lined-heading {
   text-align: center;
@@ -74,4 +80,15 @@ section { padding: 4rem 0 }
     width: 100%;
     max-width: none;
   }
+}
+
+/* Sports Camp Repeated Stuff (keep it slightly DRYer here) */
+#scheduling-section p {
+  display: flex;
+  margin-bottom: .25em
+}
+#scheduling-section p > span:first-of-type {
+  color: #137cac;
+  font-weight: 700;
+  width: 10em;
 }
