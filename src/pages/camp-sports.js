@@ -9,16 +9,16 @@ import SchedulingImg from '../images/sports-soccer.jpg'
 import BaseballImg from '../images/sports-baseball.jpg'
 import SoftballImg from '../images/sports-softball.jpg'
 import FacilitiesBackground from '../images/day-facilities-section-bg2.jpg'
-import BasketballBoysImg from '../camps-basketball-boys.jpg
-import BasketballGirlsImg from '../camps-basketball-girls.jpg
-import FootballImg from '../camps-football.jpg
-import LacrosseImg from '../camps-lacrosse.jpg
-import SoccerBoysImg from '../camps-soccer-boys.jpg
-import SoccerGirlsImg from '../camps-soccer-girls.jpg
-import StrengthCondImg from '../camps-strength-conditioning.jpg
-import VolleyballImg from '../camps-volleyball.jpg
-import WaterPoloImg from '../camps-waterpolo.jpg
-import WrestlingImg from '../camps-wrestling.jpg
+import BasketballBoysImg from '../images/camps-basketball-boys.jpg'
+import BasketballGirlsImg from '../images/camps-basketball-girls.jpg'
+import FootballImg from '../images/camps-football.jpg'
+import LacrosseImg from '../images/camps-lacrosse.jpg'
+import SoccerBoysImg from '../images/camps-soccer-boys.jpg'
+import SoccerGirlsImg from '../images/camps-soccer-girls.jpg'
+import StrengthCondImg from '../images/camps-strength-conditioning.jpg'
+import VolleyballImg from '../images/camps-volleyball.jpg'
+import WaterPoloImg from '../images/camps-waterpolo.jpg'
+import WrestlingImg from '../images/camps-wrestling.jpg'
 
 const CampSportsPage = () => (
   <Layout>
