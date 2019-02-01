@@ -62,8 +62,8 @@ const IndexPage = () => (
             title='Sports Camps'
             imgsrc={ServiceBlurbImg3}
             content='8+ sport-specific camps and a multi-sport camp empower boys and girls ages 6 to 18 to fine tune skills with the leadership of top coaches and athletic trainers and an emphasis on leadership and mental skills.'
-            buttonText='Enroll'
-            buttonLink="http://eaglesedge.campbrainregistration.com" />
+            buttonText='Explore'
+            buttonLink="/camp-sports" />
         </Col>
         <Col xs='12' sm='6' xl='3' style={{ padding: `0` }}>
           <HomeBlurb
