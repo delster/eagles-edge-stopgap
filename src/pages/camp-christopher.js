@@ -127,6 +127,10 @@ const CampChristopherPage = () => (
             </div>
           </Col>
         </Row>
+        <Row>
+        <p>2019 Early Bird Tuition (expires March 15): &#36;345&#47;week.</p>
+          <p style={{ marginBottom: `2em` }}>2019 Standard Tuition: &#36;375&#47;week.</p>
+          </Row>
       </Container>
     </section>
     <section id="scheduling-section">
