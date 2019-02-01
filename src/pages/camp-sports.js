@@ -84,7 +84,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
+              <td>Strength &amp; Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
@@ -111,7 +111,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed)</td>
+              <td>Strength &amp; Conditioning (Coed)</td>
               <td>6th-12th grades</td>
               <td></td>
               <td>
@@ -150,7 +150,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
+              <td>Strength &amp; Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
@@ -200,7 +200,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
+              <td>Strength &amp; Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
@@ -251,7 +251,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
+              <td>Strength &amp; Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
@@ -302,7 +302,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
+              <td>Strength &amp; Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
@@ -405,7 +405,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
+              <td>Strength &amp; Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
@@ -529,7 +529,7 @@ const CampSportsPage = () => (
               fontSize: `23px`,
               fontWeight: `700`
             }}>
-              7/15 - 7/18
+              7/8 - 7/11
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               9-4pm
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
@@ -537,21 +537,12 @@ const CampSportsPage = () => (
             </p>
             <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
             <ul>
-              <li>Skills and Drills</li>
-              <li>Hitting technique</li>
-              <li>Position specific instruction</li>
-              <li>Scrimmages</li>
-              <li>Feedback from our coaching staff</li>
+              <li>Techniques</li>
+              <li>Skill Development</li>
+              <li>Strategy</li>
             </ul>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Dan Letarte, Baseball</p>
-            <ul>
-              <li>25 years of coaching baseball at St. John’s Prep</li>
-              <li>Division 1A Boston Globe Coach of the year 2017</li>
-              <li>Played baseball at St. John’s Prep for 4 years</li>
-              <li>Played College baseball at both Babson and Salem State University</li>
-              <li>Currently an Associate Northeast Area LA Angels Scout</li>
-              <li>Has 28 former players playing college baseball</li>
-            </ul>
+            <p>Wrestlers of all ability levels will be challenged in a variety of traditional and progressive drills that aim to develop the individual wrestlers skills and understanding of the sport.</p>
+            <p>Head Coach, Manny Costa has 29 years of coaching experience as a varsity wrestling coach at St. John’s Prep. He has recently recorded his 700th win of his career. Manny has mentored numerous state champion wrestlers to olympic medalist spanning throughout his 29 year career.</p>
           </Col>
         </Row>
       </Container>
@@ -576,14 +567,20 @@ const CampSportsPage = () => (
               fontSize: `23px`,
               fontWeight: `700`
             }}>
-              7/22 - 7/25
+              7/15 - 7/18
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               9-4pm
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               $375
             </p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>Another Brand new program that will bring some of the areas top coaches to provide instruction in Softball fundamentals and live game action to improve your skill set.</p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>The coach is to be announced</p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
+            <ul>
+              <li>Technical: Passing, receiving, dribbling, striking &amp; finishing</li>
+              <li>Tactical: Dynamics of play, attacking, defending, ball movement and possession</li>
+              <li>Competition: Speed &amp; direction, build-ups, team shape &amp; defending</li>
+              <li>Position Specific: Making runs, creating space, connecting with passes &amp; shutting down an opponent</li>
+              <li>The staff, lead by Varsity Soccer Head Coach Dave Crowl, is made up of the most well-respected local high school and college coaches. The camp will incorporate drills which they use at their own practices to help prepare players for the next level.</li>
+            </ul>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
@@ -604,7 +601,45 @@ const CampSportsPage = () => (
             </div>
           </Col>
           <Col xs='12' lg='6'>
-            <h2>Soccer Camp (Boys)</h2>
+            <h2>Soccer Camp (Girls)</h2>
+            <p style={{
+              color: `#137cac`,
+              fontFamily: `DIN`,
+              fontSize: `26px`,
+              fontWeight: `700`,
+              marginBottom: `0`,
+              textTransform: `uppercase`
+            }}>
+              4th Grade - Rising 9th Grade
+            </p>
+            <p style={{
+              fontFamily: `DIN`,
+              fontSize: `23px`,
+              fontWeight: `700`
+            }}>
+              7/22 - 7/25
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              9-4pm
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              $375
+            </p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
+            <ul>
+              <li>Technical: Passing, receiving, dribbling, striking &amp; finishing</li>
+              <li>Tactical: Dynamics of play, attacking, defending, ball movement and possession</li>
+              <li>Competition: Speed &amp; direction, build-ups, team shape &amp; defending</li>
+              <li>Position Specific: Making runs, creating space, connecting with passes &amp; shutting down an opponent</li>
+            </ul>
+            <p>Brand new programming to EAGLES/EDGE, This camp is designed to provide instruction to girls who are looking to fine tune their skills with some of the best coaches around from professional level coaching to club level coaching.</p>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    <section id="baseball-section">
+      <Container>
+        <Row className="reverse-stacked">
+          <Col xs='12' lg='6'>
+            <h2>Baseball Camp</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -642,198 +677,27 @@ const CampSportsPage = () => (
               <li>Played College baseball at both Babson and Salem State University</li>
               <li>Currently an Associate Northeast Area LA Angels Scout</li>
               <li>Has 28 former players playing college baseball</li>
-            </ul>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-    <section id="softball-section">
-      <Container>
-        <Row className="reverse-stacked">
-          <Col xs='12' lg='6'>
-            <h2>Girls Softball Camp</h2>
-            <p style={{
-              color: `#137cac`,
-              fontFamily: `DIN`,
-              fontSize: `26px`,
-              fontWeight: `700`,
-              marginBottom: `0`,
-              textTransform: `uppercase`
-            }}>
-              4th Grade - Rising 9th Grade
-            </p>
-            <p style={{
-              fontFamily: `DIN`,
-              fontSize: `23px`,
-              fontWeight: `700`
-            }}>
-              7/22 - 7/25
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              9-4pm
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              $375
-            </p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>Another Brand new program that will bring some of the areas top coaches to provide instruction in Softball fundamentals and live game action to improve your skill set.</p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>The coach is to be announced</p>
-          </Col>
-          <Col xs='12' lg='6'>
-            <div className="img-wrap">
-              <img src={SoftballImg} alt="placeholder" />
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-        <section id="baseball-section" style={{
-      backgroundColor: `#f0f0f0`,
-    }}>
-      <Container>
-        <Row>
+            </ul>          </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
               <img src={BaseballImg} alt="placeholder" />
             </div>
           </Col>
-          <Col xs='12' lg='6'>
-            <h2>Baseball Camp (Boys)</h2>
-            <p style={{
-              color: `#137cac`,
-              fontFamily: `DIN`,
-              fontSize: `26px`,
-              fontWeight: `700`,
-              marginBottom: `0`,
-              textTransform: `uppercase`
-            }}>
-              4th Grade - Rising 9th Grade
-            </p>
-            <p style={{
-              fontFamily: `DIN`,
-              fontSize: `23px`,
-              fontWeight: `700`
-            }}>
-              7/15 - 7/18
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              9-4pm
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              $375
-            </p>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
-            <ul>
-              <li>Skills and Drills</li>
-              <li>Hitting technique</li>
-              <li>Position specific instruction</li>
-              <li>Scrimmages</li>
-              <li>Feedback from our coaching staff</li>
-            </ul>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Dan Letarte, Baseball</p>
-            <ul>
-              <li>25 years of coaching baseball at St. John’s Prep</li>
-              <li>Division 1A Boston Globe Coach of the year 2017</li>
-              <li>Played baseball at St. John’s Prep for 4 years</li>
-              <li>Played College baseball at both Babson and Salem State University</li>
-              <li>Currently an Associate Northeast Area LA Angels Scout</li>
-              <li>Has 28 former players playing college baseball</li>
-            </ul>
-          </Col>
         </Row>
       </Container>
     </section>
-    <section id="softball-section">
-      <Container>
-        <Row className="reverse-stacked">
-          <Col xs='12' lg='6'>
-            <h2>Girls Softball Camp</h2>
-            <p style={{
-              color: `#137cac`,
-              fontFamily: `DIN`,
-              fontSize: `26px`,
-              fontWeight: `700`,
-              marginBottom: `0`,
-              textTransform: `uppercase`
-            }}>
-              4th Grade - Rising 9th Grade
-            </p>
-            <p style={{
-              fontFamily: `DIN`,
-              fontSize: `23px`,
-              fontWeight: `700`
-            }}>
-              7/22 - 7/25
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              9-4pm
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              $375
-            </p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>Another Brand new program that will bring some of the areas top coaches to provide instruction in Softball fundamentals and live game action to improve your skill set.</p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>The coach is to be announced</p>
-          </Col>
-          <Col xs='12' lg='6'>
-            <div className="img-wrap">
-              <img src={SoftballImg} alt="placeholder" />
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-        <section id="baseball-section" style={{
+    <section id="softball-section" style={{
       backgroundColor: `#f0f0f0`,
     }}>
       <Container>
         <Row>
-          <Col xs='12' lg='6'>
+        <Col xs='12' lg='6'>
             <div className="img-wrap">
-              <img src={BaseballImg} alt="placeholder" />
+              <img src={SoftballImg} alt="placeholder" />
             </div>
           </Col>
           <Col xs='12' lg='6'>
-            <h2>Baseball Camp (Boys)</h2>
-            <p style={{
-              color: `#137cac`,
-              fontFamily: `DIN`,
-              fontSize: `26px`,
-              fontWeight: `700`,
-              marginBottom: `0`,
-              textTransform: `uppercase`
-            }}>
-              4th Grade - Rising 9th Grade
-            </p>
-            <p style={{
-              fontFamily: `DIN`,
-              fontSize: `23px`,
-              fontWeight: `700`
-            }}>
-              7/15 - 7/18
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              9-4pm
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              $375
-            </p>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
-            <ul>
-              <li>Skills and Drills</li>
-              <li>Hitting technique</li>
-              <li>Position specific instruction</li>
-              <li>Scrimmages</li>
-              <li>Feedback from our coaching staff</li>
-            </ul>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Dan Letarte, Baseball</p>
-            <ul>
-              <li>25 years of coaching baseball at St. John’s Prep</li>
-              <li>Division 1A Boston Globe Coach of the year 2017</li>
-              <li>Played baseball at St. John’s Prep for 4 years</li>
-              <li>Played College baseball at both Babson and Salem State University</li>
-              <li>Currently an Associate Northeast Area LA Angels Scout</li>
-              <li>Has 28 former players playing college baseball</li>
-            </ul>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-    <section id="softball-section">
-      <Container>
-        <Row className="reverse-stacked">
-          <Col xs='12' lg='6'>
-            <h2>Girls Softball Camp</h2>
+            <h2>Softball Camp (Girls)</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -855,29 +719,129 @@ const CampSportsPage = () => (
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               $375
             </p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>Another Brand new program that will bring some of the areas top coaches to provide instruction in Softball fundamentals and live game action to improve your skill set.</p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>The coach is to be announced</p>
+            <p>Another Brand new program that will bring some of the areas top coaches to provide instruction in Softball fundamentals and live game action to improve your skill set.</p>
+            <p>The coach is to be announced</p>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+        <section id="basketball-boys-section">
+      <Container>
+        <Row className="reverse-stacked">
+          <Col xs='12' lg='6'>
+            <h2>Basketball Camp (Boys)</h2>
+            <p style={{
+              color: `#137cac`,
+              fontFamily: `DIN`,
+              fontSize: `26px`,
+              fontWeight: `700`,
+              marginBottom: `0`,
+              textTransform: `uppercase`
+            }}>
+              4th Grade - Rising 9th Grade
+            </p>
+            <p style={{
+              fontFamily: `DIN`,
+              fontSize: `23px`,
+              fontWeight: `700`
+            }}>
+              7/29 - 8/1
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              9-4pm
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              $375
+            </p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
+            <ul>
+              <li>Shooting</li>
+              <li>Ball Handling</li>
+              <li>Rebounding</li>
+              <li>Passing</li>
+              <li>Principles of Motion Offense/Movement</li>
+              <li>Defensive strategies</li>
+            </ul>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach John Dullea, Basketball</p>
+            <ul>
+              <li>In 6th season as Varsity Head Coach</li>
+              <li>5 season as a Varsity Assistant Coach prior</li>
+              <li>2011 State Champion in Basketball</li>
+              <li>Division 1 North Coach of the Year 2014 by MBCA</li>
+              <li>Division 1 North Finalist 2015</li>
+              <li>Played Basketball at Peabody High School and Notre Dame Prep</li>
+              <li>Played College hoop at University of New Hampshire</li>
+            </ul>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
-              <img src={SoftballImg} alt="placeholder" />
+              <img src={BasketballBoysImg} alt="placeholder" />
             </div>
           </Col>
         </Row>
       </Container>
     </section>
-    <section id="baseball-section" style={{
+    <section id="basketball-girls-section" style={{
       backgroundColor: `#f0f0f0`,
     }}>
       <Container>
         <Row>
-          <Col xs='12' lg='6'>
+        <Col xs='12' lg='6'>
             <div className="img-wrap">
-              <img src={BaseballImg} alt="placeholder" />
+              <img src={BasketballGirlsImg} alt="placeholder" />
             </div>
           </Col>
           <Col xs='12' lg='6'>
-            <h2>Baseball Camp (Boys)</h2>
+            <h2>Girls Basketball Camp</h2>
+            <p style={{
+              color: `#137cac`,
+              fontFamily: `DIN`,
+              fontSize: `26px`,
+              fontWeight: `700`,
+              marginBottom: `0`,
+              textTransform: `uppercase`
+            }}>
+              4th Grade - Rising 12th Grade
+            </p>
+            <p style={{
+              fontFamily: `DIN`,
+              fontSize: `23px`,
+              fontWeight: `700`
+            }}>
+              7/29 - 8/1
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              9-4pm
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              $375
+            </p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
+            <ul>
+              <li>Shooting</li>
+              <li>Ball Handling</li>
+              <li>Rebounding</li>
+              <li>Passing</li>
+              <li>Principles of Motion Offense/Movement</li>
+              <li>Defensive strategies</li>
+            </ul>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Karen Grutchfield, Girls Basketball</p>
+            <ul>
+              <li>Division 1 Basketball player at Holy Cross</li>
+              <li>15 years of Head Coaching experience</li>
+              <li>Currently the Head Girls Basketball Coach at Newburyport High School</li>
+              <li>Wakefield High School Div 2 State Champs 1997</li>
+              <li>W.H.S. - Two Division 2 North titles</li>
+              <li>Six Middlesex League Championships</li>
+              <li>Boston Globe Coach of the Year 1997</li>
+              <li>Wakefield High School Hall of Fame</li>
+              <li>Burlington High School Hall of Fame</li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+        <section id="lacrosse-section">
+      <Container>
+        <Row className="reverse-stacked">
+          <Col xs='12' lg='6'>
+            <h2>Lacrosse Camp</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -917,14 +881,117 @@ const CampSportsPage = () => (
               <li>Has 28 former players playing college baseball</li>
             </ul>
           </Col>
+          <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={LacrosseImg} alt="placeholder" />
+            </div>
+          </Col>
         </Row>
       </Container>
     </section>
-    <section id="softball-section">
+    <section id="volleyball-section" style={{
+      backgroundColor: `#f0f0f0`,
+    }}>
+      <Container>
+        <Row>
+        <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={VolleyballImg} alt="placeholder" />
+            </div>
+          </Col>
+          <Col xs='12' lg='6'>
+            <h2>Volleyball Camp</h2>
+            <p style={{
+              color: `#137cac`,
+              fontFamily: `DIN`,
+              fontSize: `26px`,
+              fontWeight: `700`,
+              marginBottom: `0`,
+              textTransform: `uppercase`
+            }}>
+              4th Grade - Rising 9th Grade
+            </p>
+            <p style={{
+              fontFamily: `DIN`,
+              fontSize: `23px`,
+              fontWeight: `700`
+            }}>
+              8/5 - 8/8
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              9-4pm
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              $375
+            </p>
+            <p>This camp provides an opportunity for both girls and boys to hit the deck and compete together on the volleyball court. Our coaches will provide instruction and a fun environment for all to learn and grow within the sport.</p>
+            <p>The coach is to be announced</p>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+        <section id="football-section">
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
-            <h2>Girls Softball Camp</h2>
+            <h2>Football Camp</h2>
+            <p style={{
+              color: `#137cac`,
+              fontFamily: `DIN`,
+              fontSize: `26px`,
+              fontWeight: `700`,
+              marginBottom: `0`,
+              textTransform: `uppercase`
+            }}>
+              4th Grade - Rising 9th Grade
+            </p>
+            <p style={{
+              fontFamily: `DIN`,
+              fontSize: `23px`,
+              fontWeight: `700`
+            }}>
+              7/15 - 7/18
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              9-4pm
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              $375
+            </p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
+            <ul>
+              <li>Skills and Drills</li>
+              <li>Hitting technique</li>
+              <li>Position specific instruction</li>
+              <li>Scrimmages</li>
+              <li>Feedback from our coaching staff</li>
+            </ul>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Dan Letarte, Baseball</p>
+            <ul>
+              <li>25 years of coaching baseball at St. John’s Prep</li>
+              <li>Division 1A Boston Globe Coach of the year 2017</li>
+              <li>Played baseball at St. John’s Prep for 4 years</li>
+              <li>Played College baseball at both Babson and Salem State University</li>
+              <li>Currently an Associate Northeast Area LA Angels Scout</li>
+              <li>Has 28 former players playing college baseball</li>
+            </ul>
+          </Col>
+          <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={FootballImg} alt="placeholder" />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    <section id="water-polo-section" style={{
+      backgroundColor: `#f0f0f0`,
+    }}>
+      <Container>
+        <Row>
+        <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={WaterPoloImg} alt="placeholder" />
+            </div>
+          </Col>
+          <Col xs='12' lg='6'>
+            <h2>Water Polo Camp (Coed)</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -946,12 +1013,58 @@ const CampSportsPage = () => (
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               $375
             </p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>Another Brand new program that will bring some of the areas top coaches to provide instruction in Softball fundamentals and live game action to improve your skill set.</p>
-            <p style={{ color: `#137cac`, fontWeight: `700` }}>The coach is to be announced</p>
+            <p>Brand new sport specific camp that will allow girls and boys the ability to learn this unique sport and have some fun in the Driscoll indoor pool in the Leo and Mahoney Wellness Center.</p>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+        <section id="strength-section">
+      <Container>
+        <Row className="reverse-stacked">
+          <Col xs='12' lg='6'>
+            <h2>Strength &amp; Conditioning Camp</h2>
+            <p style={{
+              color: `#137cac`,
+              fontFamily: `DIN`,
+              fontSize: `26px`,
+              fontWeight: `700`,
+              marginBottom: `0`,
+              textTransform: `uppercase`
+            }}>
+              4th Grade - Rising 9th Grade
+            </p>
+            <p style={{
+              fontFamily: `DIN`,
+              fontSize: `23px`,
+              fontWeight: `700`
+            }}>
+              7/15 - 7/18
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              9-4pm
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              $375
+            </p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
+            <ul>
+              <li>Skills and Drills</li>
+              <li>Hitting technique</li>
+              <li>Position specific instruction</li>
+              <li>Scrimmages</li>
+              <li>Feedback from our coaching staff</li>
+            </ul>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Dan Letarte, Baseball</p>
+            <ul>
+              <li>25 years of coaching baseball at St. John’s Prep</li>
+              <li>Division 1A Boston Globe Coach of the year 2017</li>
+              <li>Played baseball at St. John’s Prep for 4 years</li>
+              <li>Played College baseball at both Babson and Salem State University</li>
+              <li>Currently an Associate Northeast Area LA Angels Scout</li>
+              <li>Has 28 former players playing college baseball</li>
+            </ul>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
-              <img src={SoftballImg} alt="placeholder" />
+              <img src={StrengthCondImg} alt="placeholder" />
             </div>
           </Col>
         </Row>

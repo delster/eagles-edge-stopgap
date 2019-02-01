@@ -34,7 +34,7 @@ const CampChristopherPage = () => (
       <div>
         <h1 style={{ textAlign: `left` }}>Camp Christopher
           <p style={{ fontFamily: `DIN`, fontSize: `1.5vw`, fontWeight: `700`, marginTop: `-.75em`, textTransform: `uppercase` }}>
-            Since 1946 • Boys & Girls Ages 4-12 • June 24 - August 16, 2019
+            Since 1946 • Boys &amp; Girls Ages 4-12 • June 24 - August 16, 2019
           </p>
         </h1>
       </div>
@@ -95,7 +95,7 @@ const CampChristopherPage = () => (
                 <li><FontAwesomeIcon fixedWidth icon='music' style={{ marginRight: `1em` }} />Music</li>
                 <li><FontAwesomeIcon fixedWidth icon='football-ball' style={{ marginRight: `1em` }} />Sports</li>
                 <li><FontAwesomeIcon fixedWidth icon='theater-masks' style={{ marginRight: `1em` }} />Performing Arts</li>
-                <li><FontAwesomeIcon fixedWidth icon='flask-potion' style={{ marginRight: `1em` }} />Science & Nature</li>
+                <li><FontAwesomeIcon fixedWidth icon='flask-potion' style={{ marginRight: `1em` }} />Science &amp; Nature</li>
                 <li><FontAwesomeIcon fixedWidth icon='bow-arrow' style={{ marginRight: `1em` }} />Archery</li>
                 <li><FontAwesomeIcon fixedWidth icon='trees' style={{ marginRight: `1em` }} />Outdoor Adventure</li>
                 <li><FontAwesomeIcon fixedWidth icon='mountain' style={{ marginRight: `1em` }} />Rock Climbing</li>

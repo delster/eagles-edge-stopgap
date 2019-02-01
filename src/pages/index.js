@@ -93,7 +93,7 @@ const IndexPage = () => (
           <Col xs='12' lg='6'>
             <h2>Facilities</h2>
             <p>Located on a beautiful 175-acre campus in Danvers, St. John’s Prep offers spacious contemporary facilities, state-of-the-art technology, extensive grounds, and dining facilities. </p>
-            <p><strong>Fitness & Sports:</strong> Ideal venue for sports and fitness activities with Memorial Gymnasium and the Leo and Joan Mahoney Wellness Center and featuring an 8-lane indoor pool, indoor track, 6 basketball courts, 5 tennis courts, turf and grass playing fields and an outdoor pool.</p>
+            <p><strong>Fitness &amp; Sports:</strong> Ideal venue for sports and fitness activities with Memorial Gymnasium and the Leo and Joan Mahoney Wellness Center and featuring an 8-lane indoor pool, indoor track, 6 basketball courts, 5 tennis courts, turf and grass playing fields and an outdoor pool.</p>
 
             <p><strong>Academic Facilities:</strong> State-of the-art classrooms, robotics lab, science labs, meeting spaces, and a spacious library are housed in the Brother Keefe, C.F.X. Academic Center, Xavier Hall, the A. E. Studzinski Library.</p>
 
