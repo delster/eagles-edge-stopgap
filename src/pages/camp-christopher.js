@@ -127,11 +127,6 @@ const CampChristopherPage = () => (
             </div>
           </Col>
         </Row>
-        <Row>
-        <p style={{ marginBottom: `2em` }}>
-          2019 Early Bird Tuition (expires March 15): $345/week.<br>
-          2019 Standard Tuition: $375/week.
-        </p></Row>
       </Container>
     </section>
     <section id="scheduling-section">
