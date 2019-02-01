@@ -75,6 +75,8 @@ const CampChristopherPage = () => (
         <p style={{ marginBottom: `2em` }}>
           Leading all of the programs and activities is our team of experienced, caring and talented camp staff. On day one, our staff will be ready to encourage camper growth and development, act as role models, foster friendships, and make camp a positive and fun experience.
         </p>
+        <p>2019 Early Bird Tuition (expires March 15): &#36;345&#47;week.</p>
+          <p style={{ marginBottom: `2em` }}>2019 Standard Tuition: &#36;375&#47;week.</p>
         <Row>
           <Col xs='12' md='6'>
             <div
@@ -127,10 +129,6 @@ const CampChristopherPage = () => (
             </div>
           </Col>
         </Row>
-        <Row>
-        <p>2019 Early Bird Tuition (expires March 15): &#36;345&#47;week.</p>
-          <p style={{ marginBottom: `2em` }}>2019 Standard Tuition: &#36;375&#47;week.</p>
-          </Row>
       </Container>
     </section>
     <section id="scheduling-section">
