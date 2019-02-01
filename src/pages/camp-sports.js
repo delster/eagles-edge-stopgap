@@ -36,7 +36,7 @@ const CampSportsPage = () => (
       backgroundSize: 'cover',
     }}>
       <div id="hero-content">
-        <div style={{ display:`flex`, alignItems:`center`, justifyContent:`center` }}>
+        <div style={{ display: `flex`, alignItems: `center`, justifyContent: `center` }}>
           <img src={HeroLogoImg} alt='sun logo' style={{ marginRight: `1vw`, width: `9vw` }} />
           <h1 style={{ display: `inline-block`, lineHeight: `1.5`, marginTop: `.2em`, textAlign: `left` }}>Sports Camps</h1>
         </div>
@@ -64,7 +64,7 @@ const CampSportsPage = () => (
               <th>Date/Program</th>
               <th>Grade Entering</th>
               <th>Tuition</th>
-              <th></th>
+              <th>Enroll Link</th>
             </tr>
           </thead>
           <tbody>
@@ -77,21 +77,21 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
                   style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td>Strength &amp; Conditioning (Coed) </td>
+              <td>Strength & Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -104,21 +104,21 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td>Strength &amp; Conditioning (Coed)</td>
+              <td>Strength & Conditioning (Coed)</td>
               <td>6th-12th grades</td>
               <td></td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -131,9 +131,9 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -143,21 +143,21 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td>Strength &amp; Conditioning (Coed) </td>
+              <td>Strength & Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -169,9 +169,9 @@ const CampSportsPage = () => (
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
-                <a href=''
+                <a href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -181,9 +181,9 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -193,21 +193,21 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td>Strength &amp; Conditioning (Coed) </td>
+              <td>Strength & Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -220,9 +220,9 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -232,9 +232,9 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -244,112 +244,9 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Strength &amp; Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
-              <td>
-                <a
-                  href=''
-                  className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 29- August 1</td>
-            </tr>
-            <tr>
-              <td>Basketball Camp (Boys) </td>
-              <td>4th-9th grades </td>
-              <td>$375 </td>
-              <td>
-                <a
-                  href=''
-                  className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Basketball Camp (Girls) </td>
-              <td>4th-9th grades </td>
-              <td>$375 </td>
-              <td>
-                <a
-                  href=''
-                  className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Multi-Sports Camp (Coed) </td>
-              <td>1st-6th grades </td>
-              <td>$375 </td>
-              <td>
-                <a
-                  href=''
-                  className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Strength &amp; Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
-              <td>
-                <a
-                  href=''
-                  className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
-                </a>
-              </td>
-            </tr>
-
-            <tr>
-              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>August 5 - 8</td>
-            </tr>
-            <tr>
-              <td>Lacrosse Camp (Boys) </td>
-              <td>4th-9th grades </td>
-              <td>$375 </td>
-              <td>
-                <a
-                  href=''
-                  className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Volleyball Camp (Coed) </td>
-              <td>4th-9th grades </td>
-              <td>$375 </td>
-              <td>
-                <a
-                  href=''
-                  className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Multi-Sports Camp (Coed) </td>
-              <td>1st-6th grades </td>
-              <td>$375 </td>
-              <td>
-                <a
-                  href=''
-                  className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -359,9 +256,112 @@ const CampSportsPage = () => (
               <td></td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 29 - August 1</td>
+            </tr>
+            <tr>
+              <td>Basketball Camp (Boys) </td>
+              <td>4th-9th grades </td>
+              <td>$375 </td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Basketball Camp (Girls) </td>
+              <td>4th-9th grades </td>
+              <td>$375 </td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Multi-Sports Camp (Coed) </td>
+              <td>1st-6th grades </td>
+              <td>$375 </td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Strength & Conditioning (Coed) </td>
+              <td>6th-12th grades </td>
+              <td></td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>August 5-8</td>
+            </tr>
+            <tr>
+              <td>Lacrosse Camp (Boys) </td>
+              <td>4th-9th grades </td>
+              <td>$375 </td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Volleyball Camp (Coed) </td>
+              <td>4th-9th grades </td>
+              <td>$375 </td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Multi-Sports Camp (Coed) </td>
+              <td>1st-6th grades </td>
+              <td>$375 </td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Strength & Conditioning (Coed) </td>
+              <td>6th-12th grades </td>
+              <td></td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -374,9 +374,9 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -386,9 +386,9 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -398,21 +398,21 @@ const CampSportsPage = () => (
               <td>$375 </td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td>Strength &amp; Conditioning (Coed) </td>
+              <td>Strength & Conditioning (Coed) </td>
               <td>6th-12th grades </td>
               <td></td>
               <td>
                 <a
-                  href=''
+                  href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700`}}>ENROLL NOW
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -434,16 +434,16 @@ const CampSportsPage = () => (
       <Container style={{ textAlign: `center` }}>
         <h2 style={{ color: `white` }}>Program Overview</h2>
         <div style={{
-            color: `black`,
-            backgroundColor: `white`,
-            height: `100%`,
-            marginLeft: `auto`,
-            padding: `1.5em`,
-            textAlign: `center`,
+          color: `black`,
+          backgroundColor: `white`,
+          height: `100%`,
+          marginLeft: `auto`,
+          padding: `1.5em`,
+          textAlign: `center`,
         }}>
-          <p style={{marginBottom: `0`}}><strong>Multi-Sports Camp</strong></p>
+          <p style={{ marginBottom: `0` }}><strong>Multi-Sports Camp</strong></p>
           <p>Our Multi-Sports Camp (for boys and girls ages 6-12) offers 8 sports per week. Play and learn 2 sports per day with instruction, games, special events and swimming featured weekly! Lineup includes: Baseball, Basketball, European Team Handball, Flag Football, Golf, Lacrosse, Soccer and Street Hockey. Want to focus on a specific sport? Add one of our sports specific camps and customize your summer. This program camps is open to boys and girls attending any school and runs Monday through Friday from 9 am to 4pm.</p>
-          <p style={{marginBottom: `0`}}><strong>Sports Specific Camps</strong></p>
+          <p style={{ marginBottom: `0` }}><strong>Sports Specific Camps</strong></p>
           <p>Our Sports Specific Camps are led by St. John's Prep coaching staff and top coaches from the area. Focus on a sport and master established skills, learn new techniques and take it to the next level! These camps are open to boys and girls attending any school and run Monday through Thursday from 9 am to 4pm.</p>
         </div>
       </Container>
@@ -502,9 +502,7 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-        <section id="wrestling-section" style={{
-      backgroundColor: `#f0f0f0`,
-    }}>
+    <section id="wrestling-section" style={{ backgroundColor: `#f0f0f0` }}>
       <Container>
         <Row>
           <Col xs='12' lg='6'>
@@ -575,10 +573,10 @@ const CampSportsPage = () => (
             </p>
             <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
             <ul>
-              <li>Technical: Passing, receiving, dribbling, striking &amp; finishing</li>
+              <li>Technical: Passing, receiving, dribbling, striking & finishing</li>
               <li>Tactical: Dynamics of play, attacking, defending, ball movement and possession</li>
-              <li>Competition: Speed &amp; direction, build-ups, team shape &amp; defending</li>
-              <li>Position Specific: Making runs, creating space, connecting with passes &amp; shutting down an opponent</li>
+              <li>Competition: Speed & direction, build-ups, team shape & defending</li>
+              <li>Position Specific: Making runs, creating space, connecting with passes & shutting down an opponent</li>
               <li>The staff, lead by Varsity Soccer Head Coach Dave Crowl, is made up of the most well-respected local high school and college coaches. The camp will incorporate drills which they use at their own practices to help prepare players for the next level.</li>
             </ul>
           </Col>
@@ -590,9 +588,7 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-        <section id="soccer-girls-section" style={{
-      backgroundColor: `#f0f0f0`,
-    }}>
+    <section id="soccer-girls-section" style={{ backgroundColor: `#f0f0f0` }}>
       <Container>
         <Row>
           <Col xs='12' lg='6'>
@@ -625,10 +621,10 @@ const CampSportsPage = () => (
             </p>
             <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
             <ul>
-              <li>Technical: Passing, receiving, dribbling, striking &amp; finishing</li>
+              <li>Technical: Passing, receiving, dribbling, striking & finishing</li>
               <li>Tactical: Dynamics of play, attacking, defending, ball movement and possession</li>
-              <li>Competition: Speed &amp; direction, build-ups, team shape &amp; defending</li>
-              <li>Position Specific: Making runs, creating space, connecting with passes &amp; shutting down an opponent</li>
+              <li>Competition: Speed & direction, build-ups, team shape & defending</li>
+              <li>Position Specific: Making runs, creating space, connecting with passes & shutting down an opponent</li>
             </ul>
             <p>Brand new programming to EAGLES/EDGE, This camp is designed to provide instruction to girls who are looking to fine tune their skills with some of the best coaches around from professional level coaching to club level coaching.</p>
           </Col>
@@ -686,12 +682,10 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-    <section id="softball-section" style={{
-      backgroundColor: `#f0f0f0`,
-    }}>
+    <section id="softball-section" style={{ backgroundColor: `#f0f0f0` }}>
       <Container>
         <Row>
-        <Col xs='12' lg='6'>
+          <Col xs='12' lg='6'>
             <div className="img-wrap">
               <img src={SoftballImg} alt="placeholder" />
             </div>
@@ -725,7 +719,7 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-        <section id="basketball-boys-section">
+    <section id="basketball-boys-section">
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
@@ -779,12 +773,10 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-    <section id="basketball-girls-section" style={{
-      backgroundColor: `#f0f0f0`,
-    }}>
+    <section id="basketball-girls-section" style={{ backgroundColor: `#f0f0f0` }}>
       <Container>
         <Row>
-        <Col xs='12' lg='6'>
+          <Col xs='12' lg='6'>
             <div className="img-wrap">
               <img src={BasketballGirlsImg} alt="placeholder" />
             </div>
@@ -837,11 +829,11 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-        <section id="lacrosse-section">
+    <section id="lacrosse-section">
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
-            <h2>Lacrosse Camp</h2>
+            <h2>Lacrosse Camp (Boys)</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -857,7 +849,7 @@ const CampSportsPage = () => (
               fontSize: `23px`,
               fontWeight: `700`
             }}>
-              7/15 - 7/18
+              8/5 - 8/8
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               9-4pm
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
@@ -865,20 +857,22 @@ const CampSportsPage = () => (
             </p>
             <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
             <ul>
-              <li>Skills and Drills</li>
-              <li>Hitting technique</li>
-              <li>Position specific instruction</li>
-              <li>Scrimmages</li>
-              <li>Feedback from our coaching staff</li>
+              <li>Stickwork</li>
+              <li>Dodging</li>
+              <li>Shooting</li>
+              <li>Defensive Play</li>
+              <li>Team O/D Concepts</li>
+              <li>Clearing & Riding</li>
             </ul>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Dan Letarte, Baseball</p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Head Coach John Pynchon '01</p>
             <ul>
-              <li>25 years of coaching baseball at St. John’s Prep</li>
-              <li>Division 1A Boston Globe Coach of the year 2017</li>
-              <li>Played baseball at St. John’s Prep for 4 years</li>
-              <li>Played College baseball at both Babson and Salem State University</li>
-              <li>Currently an Associate Northeast Area LA Angels Scout</li>
-              <li>Has 28 former players playing college baseball</li>
+              <li>Coach Pynchon has been coaching lacrosse at the high school and college levels for the past twelve years.</li>
+              <li>Pynchon, a 2001 graduate of St. Johns, enjoyed a succesful four year career as a defenseman for Providence College.</li>
+              <li>He began his coaching career in 2006 while serving as an assistant coach with the Friars for two years.</li>
+              <li>During his time at Providence, the Friars won three conference championships, two regular season championships and participated in the NCAA Tournament in 2004, 2006 & 2007.</li>
+              <li>Upon returning to the North Shore Pynchon coached the Beverly High School lacrosse team for nine years. Under Pynchon's guidance the Panthers won seven straight conference championships (2010-2016) and two sectional championships (2014 & 2015). In 2017 Coach Pynchon returned to his alma mater as the St. John's Prep head lacrosse coach.</li>
+              <li>Pynchon currently serves on the Eastern Mass Lacrosse Association board and coaches at numerous lacrosse camps through Massachusetts.</li>
+              <li>He is a member of the Social Studies faculty at St. Johns and enjoys spending his free time reading.</li>
             </ul>
           </Col>
           <Col xs='12' lg='6'>
@@ -889,12 +883,10 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-    <section id="volleyball-section" style={{
-      backgroundColor: `#f0f0f0`,
-    }}>
+    <section id="volleyball-section" style={{ backgroundColor: `#f0f0f0` }}>
       <Container>
         <Row>
-        <Col xs='12' lg='6'>
+          <Col xs='12' lg='6'>
             <div className="img-wrap">
               <img src={VolleyballImg} alt="placeholder" />
             </div>
@@ -928,7 +920,7 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-        <section id="football-section">
+    <section id="football-section">
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
@@ -980,12 +972,10 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-    <section id="water-polo-section" style={{
-      backgroundColor: `#f0f0f0`,
-    }}>
+    <section id="water-polo-section" style={{ backgroundColor: `#f0f0f0` }}>
       <Container>
         <Row>
-        <Col xs='12' lg='6'>
+          <Col xs='12' lg='6'>
             <div className="img-wrap">
               <img src={WaterPoloImg} alt="placeholder" />
             </div>
@@ -1018,11 +1008,11 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
-        <section id="strength-section">
+    <section id="strength-section">
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
-            <h2>Strength &amp; Conditioning Camp</h2>
+            <h2>Strength & Conditioning (Coed)</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -1031,36 +1021,45 @@ const CampSportsPage = () => (
               marginBottom: `0`,
               textTransform: `uppercase`
             }}>
-              4th Grade - Rising 9th Grade
+              Middle School (Grades 6-8)
             </p>
             <p style={{
               fontFamily: `DIN`,
               fontSize: `23px`,
               fontWeight: `700`
             }}>
-              7/15 - 7/18
+              6/24 - 8/16
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              9-4pm
+              M-W or Tu-Th, 9am-10am
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              $375
+              $320
             </p>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
-            <ul>
-              <li>Skills and Drills</li>
-              <li>Hitting technique</li>
-              <li>Position specific instruction</li>
-              <li>Scrimmages</li>
-              <li>Feedback from our coaching staff</li>
-            </ul>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Dan Letarte, Baseball</p>
-            <ul>
-              <li>25 years of coaching baseball at St. John’s Prep</li>
-              <li>Division 1A Boston Globe Coach of the year 2017</li>
-              <li>Played baseball at St. John’s Prep for 4 years</li>
-              <li>Played College baseball at both Babson and Salem State University</li>
-              <li>Currently an Associate Northeast Area LA Angels Scout</li>
-              <li>Has 28 former players playing college baseball</li>
-            </ul>
+            <p style={{
+              color: `#137cac`,
+              fontFamily: `DIN`,
+              fontSize: `26px`,
+              fontWeight: `700`,
+              marginBottom: `0`,
+              textTransform: `uppercase`
+            }}>
+              High School (Grades 9-12)
+            </p>
+            <p style={{
+              fontFamily: `DIN`,
+              fontSize: `23px`,
+              fontWeight: `700`
+            }}>
+              6/24 - 8/16
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              M-Th
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              $640
+              <br />
+              Session 1: 6:30am-8am
+              <br />
+              Session 2: 7:30am-9am
+            </p>
+            <p>Improve endurance, stamina, strength, flexibility, power, speed, coordination, agility, balance, and accuracy. Workouts are held on the Brother Linus, C.F.X. Athletic Commons and in our new, state-of-the-art Wellness Center.</p>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">

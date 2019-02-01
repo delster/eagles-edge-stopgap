@@ -50,7 +50,49 @@ section { padding: 4rem 0 }
 /* Unstyle Bootstrap Tables */
 .table td,
 .table th {
+  padding: .125em .75em;
   border: none
+}
+@media(max-width:767px) {
+  #openregistration-section .table,
+  #openregistration-section .table * {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  #openregistration-section .table th { border-bottom: 0 }
+  #openregistration-section .table th:not(:first-of-type) {
+    display: inline-block; font-weight: 400 }
+  #openregistration-section .table th:nth-of-type(2) { width: 40% }
+  #openregistration-section .table th:nth-of-type(3) { width: 20%;text-align: center }
+  #openregistration-section .table th:nth-of-type(4) { width: 40%;text-align: right }
+
+  #openregistration-section .table tr {
+    padding-bottom: .75em;
+  }
+  #openregistration-section .table td:first-of-type {
+    display: block;
+    width: 100%;
+    font-weight: 700;
+  }
+  #openregistration-section .table td:not(:first-of-type) {
+    display: inline-block;
+    width: calc(100%/3);
+  }
+  #openregistration-section .table td:nth-of-type(3) {text-align: center}
+  #openregistration-section .table td:nth-of-type(4) {text-align: right }
+}
+@media(max-width:480px) {
+  #openregistration-section .table th:not(:first-of-type),
+  #openregistration-section .table td:not(:first-of-type) {
+    display: block;
+    width: 100%;
+    text-align: left
+  }
+  #openregistration-section .table td:last-of-type {
+    margin-bottom: 1em
+  }
 }
 
 /* Lines to the left and right of Headings */
