@@ -924,7 +924,7 @@ const CampSportsPage = () => (
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
-            <h2>Football Camp</h2>
+            <h2>Football Camp (Boys)</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -940,7 +940,7 @@ const CampSportsPage = () => (
               fontSize: `23px`,
               fontWeight: `700`
             }}>
-              7/15 - 7/18
+              8/12 - 8/15
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               9-4pm
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
@@ -948,21 +948,43 @@ const CampSportsPage = () => (
             </p>
             <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>What you’ll learn</p>
             <ul>
-              <li>Skills and Drills</li>
-              <li>Hitting technique</li>
-              <li>Position specific instruction</li>
-              <li>Scrimmages</li>
-              <li>Feedback from our coaching staff</li>
+              <li>Receiving</li>
+              <li>Blocking</li>
+              <li>Throwing</li>
+              <li>Catching</li>
+              <li>Route running</li>
+              <li>Blocking Schemes</li>
             </ul>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Coach Dan Letarte, Baseball</p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Head Coach Brian St. Pierre ‘98</p>
+            <p>High School</p>
+              <ul>
+                <li>1998 Graduate of St. John's Prep</li>
+              <li>Captained and led 1997 football team to Division 1 State Championship</li>
+              <li>Was named Massachusetts and New England Gatorade Player of the Year, 1997</li>
+              <li>Super Prep All American selection</li>
+              </ul>
+            <p>Collegiate</p>
             <ul>
-              <li>25 years of coaching baseball at St. John’s Prep</li>
-              <li>Division 1A Boston Globe Coach of the year 2017</li>
-              <li>Played baseball at St. John’s Prep for 4 years</li>
-              <li>Played College baseball at both Babson and Salem State University</li>
-              <li>Currently an Associate Northeast Area LA Angels Scout</li>
-              <li>Has 28 former players playing college baseball</li>
-            </ul>
+              <li>Played QB at Boston College '99-02</li>
+              <li>Graduated as 3rd all time leading passer in BC history</li>
+              <li>Captain and Scanlan Award Winner</li>
+              <li>Motor City Bowl MVP, 2202</li>
+              <li>All Big East selection</li>
+              </ul>
+            <p>Professional</p>
+            <ul>
+                  <li>Drafted by the Pittsburgh Steelers in 2003</li>
+                  <li>Played 8 years in the NFL</li>
+                  <li>Member of the 2008 NFC West Champion Arizona Cardinals</li>
+                  <li>Named a game captain 4 different times with two different teams</li>
+                  </ul>
+            <p>As a coach</p>
+            <ul>
+                  <li>Named Head Football Coach of St. John's Prep in 2014</li>
+                  <li>Led St. John's to the 2018 Division 1 State Championship as well as two North Finals appearances (2014, 2018)</li>
+                  <li>Has compiled a 39-17 record in 5 years as Head Coach</li>
+                  <li>Named Salem News and Lynn Item Coach of the Year, 2018</li>
+                  </ul>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
