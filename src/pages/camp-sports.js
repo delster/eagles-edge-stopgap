@@ -50,8 +50,6 @@ const CampSportsPage = () => (
     <section id="openregistration-section">
       <Container>
         <h2>Registration for Summer 2019 Open!</h2>
-
-
         <table className="table">
           <thead>
             <tr style={{
@@ -418,12 +416,6 @@ const CampSportsPage = () => (
             </tr>
           </tbody>
         </table>
-
-
-
-
-
-
       </Container>
     </section>
     <section id="programoverview-section" style={{
@@ -957,12 +949,12 @@ const CampSportsPage = () => (
             </ul>
             <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Head Coach Brian St. Pierre ‘98</p>
             <p>High School</p>
-              <ul>
-                <li>1998 Graduate of St. John's Prep</li>
+            <ul>
+              <li>1998 Graduate of St. John's Prep</li>
               <li>Captained and led 1997 football team to Division 1 State Championship</li>
               <li>Was named Massachusetts and New England Gatorade Player of the Year, 1997</li>
               <li>Super Prep All American selection</li>
-              </ul>
+            </ul>
             <p>Collegiate</p>
             <ul>
               <li>Played QB at Boston College '99-02</li>
@@ -970,21 +962,21 @@ const CampSportsPage = () => (
               <li>Captain and Scanlan Award Winner</li>
               <li>Motor City Bowl MVP, 2202</li>
               <li>All Big East selection</li>
-              </ul>
+            </ul>
             <p>Professional</p>
             <ul>
-                  <li>Drafted by the Pittsburgh Steelers in 2003</li>
-                  <li>Played 8 years in the NFL</li>
-                  <li>Member of the 2008 NFC West Champion Arizona Cardinals</li>
-                  <li>Named a game captain 4 different times with two different teams</li>
-                  </ul>
+              <li>Drafted by the Pittsburgh Steelers in 2003</li>
+              <li>Played 8 years in the NFL</li>
+              <li>Member of the 2008 NFC West Champion Arizona Cardinals</li>
+              <li>Named a game captain 4 different times with two different teams</li>
+            </ul>
             <p>As a coach</p>
             <ul>
-                  <li>Named Head Football Coach of St. John's Prep in 2014</li>
-                  <li>Led St. John's to the 2018 Division 1 State Championship as well as two North Finals appearances (2014, 2018)</li>
-                  <li>Has compiled a 39-17 record in 5 years as Head Coach</li>
-                  <li>Named Salem News and Lynn Item Coach of the Year, 2018</li>
-                  </ul>
+              <li>Named Head Football Coach of St. John's Prep in 2014</li>
+              <li>Led St. John's to the 2018 Division 1 State Championship as well as two North Finals appearances (2014, 2018)</li>
+              <li>Has compiled a 39-17 record in 5 years as Head Coach</li>
+              <li>Named Salem News and Lynn Item Coach of the Year, 2018</li>
+            </ul>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
