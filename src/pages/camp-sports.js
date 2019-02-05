@@ -19,6 +19,7 @@ import StrengthCondImg from '../images/camps-strength-conditioning.jpg'
 import VolleyballImg from '../images/camps-volleyball.jpg'
 import WaterPoloImg from '../images/camps-waterpolo.jpg'
 import WrestlingImg from '../images/camps-wrestling.jpg'
+import MultisportsImg from '../images/camp-multi-sports.jpg'
 
 const CampSportsPage = () => (
   <Layout>
@@ -70,7 +71,7 @@ const CampSportsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-28</td>
             </tr>
             <tr>
-              <td>Multi-Sports Camp (Coed) </td>
+              <td><a class="camplink" href="#multisports-section">Multi-Sports Camp (Coed)</a></td>
               <td>1st-6th grades </td>
               <td>$375 </td>
               <td>
@@ -82,9 +83,21 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>6th-8th grades </td>
+              <td>$320</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>9th-12th grades </td>
+              <td>$640</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -97,7 +110,7 @@ const CampSportsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 1-5</td>
             </tr>
             <tr>
-              <td>Multi-Sports Camp (Coed) </td>
+              <td><a class="camplink" href="#multisports-section">Multi-Sports Camp (Coed)</a></td>
               <td>1st-6th grades </td>
               <td>$375 </td>
               <td>
@@ -107,11 +120,23 @@ const CampSportsPage = () => (
                   style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
+            </tr>            
+            <tr>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>6th-8th grades </td>
+              <td>$320</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed)</td>
-              <td>6th-12th grades</td>
-              <td></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>9th-12th grades </td>
+              <td>$640</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -124,7 +149,7 @@ const CampSportsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 8-11</td>
             </tr>
             <tr>
-              <td>Wrestling Camp (Boys) </td>
+              <td><a class="camplink" href="#wrestling-section">Wrestling Camp (Boys)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -136,7 +161,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Multi-Sports Camp (Coed) </td>
+              <td><a class="camplink" href="#multisports-section">Multi-Sports Camp (Coed)</a></td>
               <td>1st-6th grades </td>
               <td>$375 </td>
               <td>
@@ -146,11 +171,23 @@ const CampSportsPage = () => (
                   style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
+            </tr>            
+            <tr>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>6th-8th grades </td>
+              <td>$320</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>9th-12th grades </td>
+              <td>$640</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -163,7 +200,7 @@ const CampSportsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 15-18</td>
             </tr>
             <tr>
-              <td>Soccer Camp (Boys) </td>
+              <td><a class="camplink" href="#soccer-boys-section">Soccer Camp (Boys)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -174,7 +211,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Baseball Camp (Boys) </td>
+              <td><a class="camplink" href="#baseball-section">Baseball Camp (Boys)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -186,7 +223,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Multi-Sports Camp (Coed) </td>
+              <td><a class="camplink" href="#multisports-section">Multi-Sports Camp (Coed)</a></td>
               <td>1st-6th grades </td>
               <td>$375 </td>
               <td>
@@ -196,11 +233,23 @@ const CampSportsPage = () => (
                   style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
+            </tr>            
+            <tr>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>6th-8th grades </td>
+              <td>$320</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>9th-12th grades </td>
+              <td>$640</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -213,7 +262,7 @@ const CampSportsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 22-25</td>
             </tr>
             <tr>
-              <td>Soccer Camp (Girls) </td>
+              <td><a class="camplink" href="#soccer-girls-section">Soccer Camp (Girls)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -225,7 +274,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Softball Camp (Girls) </td>
+              <td><a class="camplink" href="#softball-section">Softball Camp (Girls)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -237,7 +286,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Multi-Sports Camp (Coed) </td>
+              <td><a class="camplink" href="#multisports-section">Multi-Sports Camp (Coed)</a></td>
               <td>1st-6th grades </td>
               <td>$375 </td>
               <td>
@@ -249,9 +298,21 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>6th-8th grades </td>
+              <td>$320</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>9th-12th grades </td>
+              <td>$640</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -264,7 +325,7 @@ const CampSportsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 29 - August 1</td>
             </tr>
             <tr>
-              <td>Basketball Camp (Boys) </td>
+              <td><a class="camplink" href="#basketball-boys-section">Basketball Camp (Boys)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -276,7 +337,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Basketball Camp (Girls) </td>
+              <td><a class="camplink" href="#basketball-girls-section">Basketball Camp (Girls)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -288,7 +349,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Multi-Sports Camp (Coed) </td>
+              <td><a class="camplink" href="#multisports-section">Multi-Sports Camp (Coed)</a></td>
               <td>1st-6th grades </td>
               <td>$375 </td>
               <td>
@@ -300,9 +361,21 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>6th-8th grades </td>
+              <td>$320</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>9th-12th grades </td>
+              <td>$640</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -316,7 +389,7 @@ const CampSportsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>August 5-8</td>
             </tr>
             <tr>
-              <td>Lacrosse Camp (Boys) </td>
+              <td><a class="camplink" href="#lacrosse-section">Lacrosse Camp (Boys)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -328,7 +401,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Volleyball Camp (Coed) </td>
+              <td><a class="camplink" href="#volleyball-section">Volleyball Camp (Coed)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -340,7 +413,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Multi-Sports Camp (Coed) </td>
+              <td><a class="camplink" href="#multisports-section">Multi-Sports Camp (Coed)</a></td>
               <td>1st-6th grades </td>
               <td>$375 </td>
               <td>
@@ -352,9 +425,21 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>6th-8th grades </td>
+              <td>$320</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>9th-12th grades </td>
+              <td>$640</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -367,7 +452,7 @@ const CampSportsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>August 12-15</td>
             </tr>
             <tr>
-              <td>Football Camp (Boys) </td>
+              <td><a class="camplink" href="#football-section">Football Camp (Boys)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -379,7 +464,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Waterpolo Camp (Coed) </td>
+              <td><a class="camplink" href="#water-polo-section">Waterpolo Camp (Coed)</a></td>
               <td>4th-9th grades </td>
               <td>$375 </td>
               <td>
@@ -391,7 +476,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Multi-Sports Camp (Coed) </td>
+              <td><a class="camplink" href="#multisports-section">Multi-Sports Camp (Coed)</a></td>
               <td>1st-6th grades </td>
               <td>$375 </td>
               <td>
@@ -403,9 +488,21 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td>Strength & Conditioning (Coed) </td>
-              <td>6th-12th grades </td>
-              <td></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>6th-8th grades </td>
+              <td>$320</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td>9th-12th grades </td>
+              <td>$640</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -440,7 +537,7 @@ const CampSportsPage = () => (
         </div>
       </Container>
     </section>
-    <section id="scheduling-section">
+    <section id="scheduling-section" style={{ backgroundColor: `#f0f0f0` }}>
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
@@ -494,6 +591,42 @@ const CampSportsPage = () => (
         </Row>
       </Container>
     </section>
+    <section id="multisports-section">
+      <Container>
+        <Row className="reverse-stacked">
+          <Col xs='12' lg='6'>
+            <h2>Multi-sports Camp (Coed)</h2>
+            <p style={{
+              color: `#137cac`,
+              fontFamily: `DIN`,
+              fontSize: `26px`,
+              fontWeight: `700`,
+              marginBottom: `0`,
+              textTransform: `uppercase`
+            }}>
+              Ages 6-12
+            </p>
+            <p style={{
+              fontFamily: `DIN`,
+              fontSize: `23px`,
+              fontWeight: `700`
+            }}>
+              1-8 wk sessions (6/24-8/15)<br />
+              9-4pm
+              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
+              $375/week
+            </p>
+            <p>Our Multi-Sports Camp (for boys and girls ages 6-12) offers 8 sports per week. Play and learn 2 sports per day with instruction, games, special events and swimming featured weekly! Lineup includes: Baseball, Basketball, European Team Handball, Flag Football, Golf, Lacrosse, Soccer and Street Hockey. Want to focus on a specific sport? Add one of our sports specific camps and customize your summer. This program camps is open to boys and girls attending any school and runs Monday through Friday from 9 am to 4pm.</p>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
+          </Col>
+          <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={MultisportsImg} alt="placeholder" />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
     <section id="wrestling-section" style={{ backgroundColor: `#f0f0f0` }}>
       <Container>
         <Row>
@@ -533,6 +666,7 @@ const CampSportsPage = () => (
             </ul>
             <p>Wrestlers of all ability levels will be challenged in a variety of traditional and progressive drills that aim to develop the individual wrestlers skills and understanding of the sport.</p>
             <p>Head Coach, Manny Costa has 29 years of coaching experience as a varsity wrestling coach at St. John’s Prep. He has recently recorded his 700th win of his career. Manny has mentored numerous state champion wrestlers to olympic medalist spanning throughout his 29 year career.</p>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
         </Row>
       </Container>
@@ -571,6 +705,7 @@ const CampSportsPage = () => (
               <li>Position Specific: Making runs, creating space, connecting with passes & shutting down an opponent</li>
               <li>The staff, lead by Varsity Soccer Head Coach Dave Crowl, is made up of the most well-respected local high school and college coaches. The camp will incorporate drills which they use at their own practices to help prepare players for the next level.</li>
             </ul>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
@@ -619,6 +754,7 @@ const CampSportsPage = () => (
               <li>Position Specific: Making runs, creating space, connecting with passes & shutting down an opponent</li>
             </ul>
             <p>Brand new programming to EAGLES/EDGE, This camp is designed to provide instruction to girls who are looking to fine tune their skills with some of the best coaches around from professional level coaching to club level coaching.</p>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
         </Row>
       </Container>
@@ -627,7 +763,7 @@ const CampSportsPage = () => (
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
-            <h2>Baseball Camp</h2>
+            <h2>Baseball Camp (Boys)</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -665,7 +801,9 @@ const CampSportsPage = () => (
               <li>Played College baseball at both Babson and Salem State University</li>
               <li>Currently an Associate Northeast Area LA Angels Scout</li>
               <li>Has 28 former players playing college baseball</li>
-            </ul>          </Col>
+            </ul>    
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>      
+            </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
               <img src={BaseballImg} alt="placeholder" />
@@ -707,6 +845,7 @@ const CampSportsPage = () => (
             </p>
             <p>Another Brand new program that will bring some of the areas top coaches to provide instruction in Softball fundamentals and live game action to improve your skill set.</p>
             <p>The coach is to be announced</p>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
         </Row>
       </Container>
@@ -756,6 +895,7 @@ const CampSportsPage = () => (
               <li>Played Basketball at Peabody High School and Notre Dame Prep</li>
               <li>Played College hoop at University of New Hampshire</li>
             </ul>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
@@ -774,7 +914,7 @@ const CampSportsPage = () => (
             </div>
           </Col>
           <Col xs='12' lg='6'>
-            <h2>Girls Basketball Camp</h2>
+            <h2>Basketball Camp (Girls)</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -817,6 +957,7 @@ const CampSportsPage = () => (
               <li>Wakefield High School Hall of Fame</li>
               <li>Burlington High School Hall of Fame</li>
             </ul>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
         </Row>
       </Container>
@@ -866,6 +1007,7 @@ const CampSportsPage = () => (
               <li>Pynchon currently serves on the Eastern Mass Lacrosse Association board and coaches at numerous lacrosse camps through Massachusetts.</li>
               <li>He is a member of the Social Studies faculty at St. Johns and enjoys spending his free time reading.</li>
             </ul>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
@@ -884,7 +1026,7 @@ const CampSportsPage = () => (
             </div>
           </Col>
           <Col xs='12' lg='6'>
-            <h2>Volleyball Camp</h2>
+            <h2>Volleyball Camp (Coed)</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -908,6 +1050,7 @@ const CampSportsPage = () => (
             </p>
             <p>This camp provides an opportunity for both girls and boys to hit the deck and compete together on the volleyball court. Our coaches will provide instruction and a fun environment for all to learn and grow within the sport.</p>
             <p>The coach is to be announced</p>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
         </Row>
       </Container>
@@ -977,6 +1120,7 @@ const CampSportsPage = () => (
               <li>Has compiled a 39-17 record in 5 years as Head Coach</li>
               <li>Named Salem News and Lynn Item Coach of the Year, 2018</li>
             </ul>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
@@ -1018,6 +1162,15 @@ const CampSportsPage = () => (
               $375
             </p>
             <p>Brand new sport specific camp that will allow girls and boys the ability to learn this unique sport and have some fun in the Driscoll indoor pool in the Leo and Mahoney Wellness Center.</p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Head Waterpolo Instructor Jeff Fiore (SJP Aquatics Coordinator)</p>
+          <ul>
+          <li>Jeff played Varsity Water Polo at SJP 2004-2008</li>
+          <li>2018 was first season assistant coaching at the Prep and our most varsity wins in recent memory.</li>
+          <li>Jeff was also a varsity swimmer at SJP, went on to swim for University of Tampa, DII National Qualifier and All American all four years.</li> 
+          <li>Prep and UT record holder. Has been coaching competitive swimming since 2012, all age groups.</li>
+              </ul>
+
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
         </Row>
       </Container>
@@ -1074,6 +1227,14 @@ const CampSportsPage = () => (
               Session 2: 7:30am-9am
             </p>
             <p>Improve endurance, stamina, strength, flexibility, power, speed, coordination, agility, balance, and accuracy. Workouts are held on the Brother Linus, C.F.X. Athletic Commons and in our new, state-of-the-art Wellness Center.</p>
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Bill McSheffrey Head Strength & Conditioning Coordinator at St. John’s Prep</p>  
+            <ul>
+            <li>He is responsible for creating and implementing strength and conditioning offerings for all members of the SJP community.</li>
+            <li>This includes St. John's Prep students, faculty and staff, alumni, and parents.</li>
+            <li>Prior to St. John’s Prep, Bill held coaching roles with the Arizona Coyotes, Springfield Falcons, Buffalo Sabres, Mike Boyle’s Strength and Conditioning, Springfield College, the University of Rhode Island, and Attain Therapy + Fitness.</li> 
+            <li>He attended the University of Rhode Island and Springfield College for undergraduate and graduate school.</li>
+            </ul>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">

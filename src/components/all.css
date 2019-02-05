@@ -134,3 +134,24 @@ section { padding: 4rem 0 }
   font-weight: 700;
   width: 10em;
 }
+a.camplink {
+  color:black;
+  border-bottom:2px solid #f5b742;
+  text-decoration:none;
+}
+a.camplink:hover {
+  background-color:#f5b742;
+  text-decoration:none;
+}
+a.camp-enroll-btn {
+  border:1px solid rgb(19, 124, 172);
+  padding:4px 10px;
+  color: rgb(19, 124, 172);
+  text-decoration:none;
+  margin-top:15px;
+}
+a.camp-enroll-btn:hover {
+  background-color: rgb(19, 124, 172);
+  color:white;
+  text-decoration:none;
+}
