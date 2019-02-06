@@ -10,6 +10,7 @@ import OurProgramBackground from '../images/day-program-section-bg.jpg'
 import SchedulingImg from '../images/day-schedule-img.jpg'
 import FeaturedProgramImg from '../images/pool-img.jpg'
 import OurStaffImg from '../images/day-staff-img.png'
+import DetailsImg from '../images/day-details.jpg'
 import FacilitiesBackground from '../images/day-facilities-section-bg2.jpg'
 
 const CampChristopherPage = () => (
@@ -183,12 +184,32 @@ const CampChristopherPage = () => (
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
-              <img src={OurStaffImg} alt="placeholder" />
+              <img src={OurStaffImg} alt="our staff" />
             </div>
           </Col>
         </Row>
       </Container>
     </section>
+    <section id="details-section" style={{
+      backgroundColor: `#f0f0f0`,
+      borderBottom: `1.5rem solid #f5b742`
+    }}>
+      <Container>
+        <Row>
+          <Col xs='12' lg='6'>
+            <div className="img-wrap">
+              <img src={DetailsImg} alt="details" />
+            </div>
+          </Col>
+          <Col xs='12' lg='6'>
+            <h2>Details</h2>
+            <p><strong>Transportation</strong> is offered weekly (only) for an additional fee and will be provided by a school bus at a central pick-up spot, near your home or work. You will receive an email by 5 pm on the Wednesday before your child attends camp to notify you of the estimated pick-up and drop off times, as times and stops vary from week to week. Extended Day options do not include transportation.</p>
+            <p><strong>Lunch:</strong> enrollment for the lunch program is weekly and must be received by the Monday prior to the week your child(ren) attends camp. Lunch program daily choices - gluten free options are available, and we are nut free. All main courses are served with 1% milk, fresh fruit and homemade potato chips.</p>
+           </Col>
+        </Row>
+      </Container>
+    </section>
+
     <section id="facilities-section"
       style={{
         display: `flex`,
@@ -198,8 +219,7 @@ const CampChristopherPage = () => (
         backgroundImage: `url(${FacilitiesBackground})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-      }}
-    >
+      }}>
       <Container>
         <Row>
           <Col xs='12' sm='10' md='8' lg='5'>
