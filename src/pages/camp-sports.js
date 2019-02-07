@@ -23,7 +23,7 @@ import MultisportsImg from '../images/camp-multi-sports.jpg'
 
 const CampSportsPage = () => (
   <Layout>
-    <Helmet title="Sports Camp" />
+    <Helmet title="Eagles Edge | Sports Camp" />
     <section id="hero-section" style={{
       display: `flex`,
       alignItems: `center`,
@@ -120,7 +120,7 @@ const CampSportsPage = () => (
                   style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>            
+            </tr>
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
@@ -171,7 +171,7 @@ const CampSportsPage = () => (
                   style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>            
+            </tr>
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
@@ -233,7 +233,7 @@ const CampSportsPage = () => (
                   style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>            
+            </tr>
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
@@ -801,9 +801,9 @@ const CampSportsPage = () => (
               <li>Played College baseball at both Babson and Salem State University</li>
               <li>Currently an Associate Northeast Area LA Angels Scout</li>
               <li>Has 28 former players playing college baseball</li>
-            </ul>    
-            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>      
-            </Col>
+            </ul>
+            <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
+          </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">
               <img src={BaseballImg} alt="placeholder" />
@@ -1163,12 +1163,12 @@ const CampSportsPage = () => (
             </p>
             <p>Brand new sport specific camp that will allow girls and boys the ability to learn this unique sport and have some fun in the Driscoll indoor pool in the Leo and Mahoney Wellness Center.</p>
             <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Head Waterpolo Instructor Jeff Fiore (SJP Aquatics Coordinator)</p>
-          <ul>
-          <li>Jeff played Varsity Water Polo at SJP 2004-2008</li>
-          <li>2018 was first season assistant coaching at the Prep and our most varsity wins in recent memory.</li>
-          <li>Jeff was also a varsity swimmer at SJP, went on to swim for University of Tampa, DII National Qualifier and All American all four years.</li> 
-          <li>Prep and UT record holder. Has been coaching competitive swimming since 2012, all age groups.</li>
-              </ul>
+            <ul>
+              <li>Jeff played Varsity Water Polo at SJP 2004-2008</li>
+              <li>2018 was first season assistant coaching at the Prep and our most varsity wins in recent memory.</li>
+              <li>Jeff was also a varsity swimmer at SJP, went on to swim for University of Tampa, DII National Qualifier and All American all four years.</li>
+              <li>Prep and UT record holder. Has been coaching competitive swimming since 2012, all age groups.</li>
+            </ul>
 
             <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>
@@ -1227,12 +1227,12 @@ const CampSportsPage = () => (
               Session 2: 7:30am-9am
             </p>
             <p>Improve endurance, stamina, strength, flexibility, power, speed, coordination, agility, balance, and accuracy. Workouts are held on the Brother Linus, C.F.X. Athletic Commons and in our new, state-of-the-art Wellness Center.</p>
-            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Bill McSheffrey Head Strength & Conditioning Coordinator at St. John’s Prep</p>  
+            <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Bill McSheffrey Head Strength & Conditioning Coordinator at St. John’s Prep</p>
             <ul>
-            <li>He is responsible for creating and implementing strength and conditioning offerings for all members of the SJP community.</li>
-            <li>This includes St. John's Prep students, faculty and staff, alumni, and parents.</li>
-            <li>Prior to St. John’s Prep, Bill held coaching roles with the Arizona Coyotes, Springfield Falcons, Buffalo Sabres, Mike Boyle’s Strength and Conditioning, Springfield College, the University of Rhode Island, and Attain Therapy + Fitness.</li> 
-            <li>He attended the University of Rhode Island and Springfield College for undergraduate and graduate school.</li>
+              <li>He is responsible for creating and implementing strength and conditioning offerings for all members of the SJP community.</li>
+              <li>This includes St. John's Prep students, faculty and staff, alumni, and parents.</li>
+              <li>Prior to St. John’s Prep, Bill held coaching roles with the Arizona Coyotes, Springfield Falcons, Buffalo Sabres, Mike Boyle’s Strength and Conditioning, Springfield College, the University of Rhode Island, and Attain Therapy + Fitness.</li>
+              <li>He attended the University of Rhode Island and Springfield College for undergraduate and graduate school.</li>
             </ul>
             <a class='camp-enroll-btn' href='https://eaglesedge.campbrainregistration.com/'>ENROLL NOW</a>
           </Col>

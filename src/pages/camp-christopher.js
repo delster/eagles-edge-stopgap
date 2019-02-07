@@ -15,7 +15,7 @@ import FacilitiesBackground from '../images/day-facilities-section-bg2.jpg'
 
 const CampChristopherPage = () => (
   <Layout>
-    <Helmet title="Camp Christopher" />
+    <Helmet title="Eagles Edge | Camp Christopher" />
     <section id="hero-section" style={{
       display: `flex`,
       flexFlow: `row`,
@@ -77,7 +77,7 @@ const CampChristopherPage = () => (
           Leading all of the programs and activities is our team of experienced, caring and talented camp staff. On day one, our staff will be ready to encourage camper growth and development, act as role models, foster friendships, and make camp a positive and fun experience.
         </p>
         <p>2019 Early Bird Tuition (expires March 15): &#36;345&#47;week.</p>
-          <p style={{ marginBottom: `2em` }}>2019 Standard Tuition: &#36;375&#47;week.</p>
+        <p style={{ marginBottom: `2em` }}>2019 Standard Tuition: &#36;375&#47;week.</p>
         <Row>
           <Col xs='12' md='6'>
             <div
@@ -205,7 +205,7 @@ const CampChristopherPage = () => (
             <h2>Details</h2>
             <p><strong>Transportation</strong> is offered weekly (only) for an additional fee and will be provided by a school bus at a central pick-up spot, near your home or work. You will receive an email by 5 pm on the Wednesday before your child attends camp to notify you of the estimated pick-up and drop off times, as times and stops vary from week to week. Extended Day options do not include transportation.</p>
             <p><strong>Lunch:</strong> enrollment for the lunch program is weekly and must be received by the Monday prior to the week your child(ren) attends camp. Lunch program daily choices - gluten free options are available, and we are nut free. All main courses are served with 1% milk, fresh fruit and homemade potato chips.</p>
-           </Col>
+          </Col>
         </Row>
       </Container>
     </section>

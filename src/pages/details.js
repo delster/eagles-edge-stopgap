@@ -10,7 +10,7 @@ import PoolImg from '../images/pool-img.jpg'
 
 const DetailsPage = () => (
   <Layout>
-    <Helmet title="Details" />
+    <Helmet title="Eagles Edge | Details" />
     <section id="hero-section" style={{
       display: `flex`,
       flexFlow: `row`,
