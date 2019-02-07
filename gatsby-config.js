@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Eagles Edge`,
-    description: `This is a place holder for Eagles Edge while the main site is being built.`,
-    author: `@delster`,
+    title: `Eagles/Edge at St. John's Prep`,
+    description: `Eagles/Edge offers wide-ranging opportunities for young people ages 4 to 18 to gain self-confidence and develop their personal edge on the path to becoming their best selves.`,
+    author: `Pixel Parlor`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,5 +30,20 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-PNZ68H8",
+  
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+  
+        // Specify optional GTM environment details.
+        gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
+        gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
+      },
+    },
   ],
+  
 }
