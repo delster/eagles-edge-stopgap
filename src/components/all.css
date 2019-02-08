@@ -143,6 +143,12 @@ a.camplink:hover {
   background-color:#f5b742;
   text-decoration:none;
 }
+.specialtycampsschedule a.camplink {
+border-bottom:2px solid #db672b;
+}
+.specialtycampsschedule a.camplink:hover {
+  background-color:#db672b;
+}
 a.camp-enroll-btn {
   border:1px solid rgb(19, 124, 172);
   padding:4px 10px;

@@ -33,13 +33,13 @@ const SpecialtyCampsPage = () => (
     }}>
       <h1>Specialty Camps</h1>
     </section>
-    <section id="schedule-section">
+    <section id="schedule-section" class="specialtycampsschedule">
       <Container>
         <h2>Specialty Camps 2019 Summer Schedule</h2>
         <table className="table">
           <thead>
             <tr style={{
-              color: `#137cac`,
+              color: `#db672b`,
               fontFamily: 'DIN',
               fontSize: `26px`,
               fontWeight: 700,
@@ -63,7 +63,7 @@ const SpecialtyCampsPage = () => (
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -71,26 +71,26 @@ const SpecialtyCampsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-August 16</td>
             </tr>
             <tr>
-              <td>Robotics 101 - EV3</td>
+              <td><a class="camplink" href="#robotics-section">Robotics 101 - EV3</a></td>
               <td>Rising 4th to 6th or 7th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td>Intro to Scratch - Programming 4 Kids </td>
+              <td><a class="camplink" href="#introprogramming-section">Intro to Scratch - Programming 4 Kids</a></td>
               <td>Rising 1st to 4th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -98,26 +98,26 @@ const SpecialtyCampsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 8-12</td>
             </tr>
             <tr>
-              <td>3D Game Design Featuring Portal 2</td>
+              <td><a class="camplink" href="#3dgamedesign-section">3D Game Design Featuring Portal 2</a></td>
               <td>Rising 4th to 6th or 7th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td>Game Design & Roller Coaster Science (iPads)</td>
+              <td><a class="camplink" href="#rollercoaster-section">Game Design & Roller Coaster Science (iPads)</a></td>
               <td>Rising 1st to 4th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -125,26 +125,26 @@ const SpecialtyCampsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 15-19</td>
             </tr>
             <tr>
-              <td>Extreme Minecraft</td>
+              <td><a class="camplink" href="#extrememinecraft-section">Extreme Minecraft</a></td>
               <td>Rising 4th to 6th or 7th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td>Minecraft 4 Kids (iPads)</td>
+              <td><a class="camplink" href="#minecraft4kids-section">Minecraft 4 Kids (iPads)</a></td>
               <td>Rising 1st to 4th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -152,26 +152,26 @@ const SpecialtyCampsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 22-26</td>
             </tr>
             <tr>
-              <td>Programming for Gamers</td>
+              <td><a class="camplink" href="#programminggamers-section">Programming for Gamers</a></td>
               <td>Rising 4th to 6th or 7th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#minecraft4kids-section">Web Design 4 Kids</a></td>
+              <td><a class="camplink" href="#webdesign4kids-section">Web Design 4 Kids</a></td>
               <td>Rising 1st to 4th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -179,14 +179,14 @@ const SpecialtyCampsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>August 5-9</td>
             </tr>
             <tr>
-              <td>Digital Photography Intro to Engineering</td>
+              <td><a class="camplink" href="#digitalphotography-section">Digital Photography Intro to Engineering</a></td>
               <td>Rising 1st to 4th</td>
               <td>$395</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
                   className='enroll-link'
-                  style={{ color: `#f5b742`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
             </tr>
@@ -496,7 +496,7 @@ const SpecialtyCampsPage = () => (
         </Row>
       </Container>
     </section>
-    <section id="programminggamers-section">
+    <section id="digitalphotography-section">
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
