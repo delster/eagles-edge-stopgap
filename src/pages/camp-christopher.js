@@ -137,12 +137,12 @@ const CampChristopherPage = () => (
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
             <h2>Family Flexible Scheduling</h2>
-            <p> <strong>Camp Dates—</strong> June 24 to August 16, 2019 </p>
-            <p> <strong>Sessions—</strong> 1, 2, 4, 6 and 8-week options available </p>
-            <p> <strong>Schedule—</strong> Monday through Friday from 9 am to 4 pm </p>
-            <p> <strong>Extended Day—</strong> Arrive as early as 8 am and stay until 6 pm </p>
-            <p> <strong>Transportation—</strong> Buses serve convenient locations in Andover, Georgetown, Lynnfield, Malden, Marblehead, Melrose, Middleton, Newburyport, North Andover, Reading, Salem, Swampscott, and Wakefield </p>
-            <p> <strong>What to Bring—</strong> Bathing suit, towel, hat, sneakers, sunscreen, water bottle </p>
+            <p> <strong>Camp Dates—</strong> <span>June 24 to August 16, 2019</span> </p>
+            <p> <strong>Sessions—</strong> <span>1, 2, 4, 6 and 8-week options available</span> </p>
+            <p> <strong>Schedule—</strong> <span>Monday through Friday from 9 am to 4 pm</span> </p>
+            <p> <strong>Extended Day—</strong> <span>Arrive as early as 8 am and stay until 6 pm</span> </p>
+            <p> <strong>Transportation—</strong> <span>Buses serve convenient locations in Andover, Georgetown, Lynnfield, Malden, Marblehead, Melrose, Middleton, Newburyport, North Andover, Reading, Salem, Swampscott, and Wakefield</span> </p>
+            <p> <strong>What to Bring—</strong> <span>Bathing suit, towel, hat, sneakers, sunscreen, water bottle</span> </p>
           </Col>
           <Col xs='12' lg='6'>
             <div className="img-wrap">

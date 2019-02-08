@@ -543,43 +543,43 @@ const CampSportsPage = () => (
           <Col xs='12' lg='6'>
             <h2>Sample Scheduling</h2>
             <p>
-              <span> 8:45 am - 9:00 am </span>
+              <strong> 8:45 am - 9:00 am </strong>
               <span> Arrival (Wellness Center) </span>
             </p>
             <p>
-              <span> 9:00 am - 9:30 am </span>
+              <strong> 9:00 am - 9:30 am </strong>
               <span> Mental performance skill work <br /> (Wellness Center) </span>
             </p>
             <p>
-              <span> 9:35 am - 10:00 am</span>
+              <strong> 9:35 am - 10:00 am</strong>
               <span> Physical performance skill work <br /> (Wellness Center) </span>
             </p>
             <p>
-              <span>10:05 am - 10:30 am</span>
+              <strong>10:05 am - 10:30 am</strong>
               <span> Dynamic warm-up, stretching </span>
             </p>
             <p>
-              <span>10:35 am - 11:50 pm</span>
+              <strong>10:35 am - 11:50 pm</strong>
               <span> Morning practice <br /> (individual drills, skills, and technique work) </span>
             </p>
             <p>
-              <span>12:00 pm - 1:00pm  </span>
+              <strong>12:00 pm - 1:00pm  </strong>
               <span> Lunch (Dining Hall) </span>
             </p>
             <p>
-              <span> 1:15 pm - 2:00 pm </span>
+              <strong> 1:15 pm - 2:00 pm </strong>
               <span> Chalk-talk work, film study <br /> (Wellness Center) </span>
             </p>
             <p>
-              <span> 2:00 pm - 3:15 pm </span>
+              <strong> 2:00 pm - 3:15 pm </strong>
               <span> Afternoon practice <br /> (group work, stations, and competition) </span>
             </p>
             <p>
-              <span> 3:30 pm - 4:00 pm </span>
+              <strong> 3:30 pm - 4:00 pm </strong>
               <span> Pool (Wellness Center) </span>
             </p>
             <p>
-              <span>4:00 pm</span>
+              <strong>4:00 pm</strong>
               <span> Departure (Wellness Center) </span>
             </p>
           </Col>
