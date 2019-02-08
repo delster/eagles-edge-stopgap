@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Container, Row, Col, Button } from 'reactstrap'
 import Layout from '../components/layout'
-import HeroBackground from '../images/stock-specialty-hero-bg.png'
+import HeroBackground from '../images/specialty-hero-bg.jpg'
 import BannerImg from '../images/specialty-midbanner.jpg'
 import Robotics101Img from '../images/specialty-robotics.jpg'
 import IntroToProgrammingImg from '../images/specialty-scratch.jpg'
@@ -190,6 +190,159 @@ const SpecialtyCampsPage = () => (
                 </a>
               </td>
             </tr>
+          </tbody>
+        </table>
+      </Container>
+      <Container>
+        <h2>Arts</h2>
+        <table className="table">
+          <thead>
+            <tr style={{
+              color: `#db672b`,
+              fontFamily: 'DIN',
+              fontSize: `26px`,
+              fontWeight: 700,
+              textTransform: `uppercase`
+            }}>
+              <th>Date/Program</th>
+              <th>Grade Entering</th>
+              <th>Tuition</th>
+              <th>Enroll Link</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 10-June 20</td>
+            </tr>
+            <tr>
+              <td>Ceramics Pottery Workshop</td>
+              <td>Ages 10-14</td>
+              <td>$395</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>     
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-June 27</td>
+            </tr>
+            <tr>
+              <td>Art Studio Lab (AM)</td>
+              <td>Grades 6-12</td>
+              <td>$150</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>            
+            <tr>
+              <td>Art Portfolio Preparation (AM)</td>
+              <td>Grades 6-12</td>
+              <td>$150</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-June 28</td>
+            </tr>
+            <tr>
+              <td>Writer's Workshop (AM)</td>
+              <td>Grades 6-12</td>
+              <td>$200</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>  
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-August 10</td>
+            </tr>  
+            <tr>
+              <td>Summer Theater at St. John's Prep (PM)</td>
+              <td>Grades 9-12</td>
+              <td>$100</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>      
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 8-July 12</td>
+            </tr>  
+            <tr>
+              <td>Chamber Strings (AM)</td>
+              <td>Grades 6-12</td>
+              <td>$200</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>      
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 8-July 18</td>
+            </tr>  
+            <tr>
+              <td>Ceramics Pottery Workshop (AM)</td>
+              <td>Ages 15-18</td>
+              <td>$395</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>      
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 15-July 19</td>
+            </tr>  
+            <tr>
+              <td>High School Audition Workshop</td>
+              <td>Grades 9-12</td>
+              <td>$350</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>      
+            <tr>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>August 12-August 16</td>
+            </tr>  
+            <tr>
+              <td>Middle School Audition Workshop (AM)</td>
+              <td>Grades 6-8</td>
+              <td>$200</td>
+              <td>
+                <a
+                  href='https://eaglesedge.campbrainregistration.com/'
+                  className='enroll-link'
+                  style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
+                </a>
+              </td>
+            </tr>      
           </tbody>
         </table>
       </Container>
