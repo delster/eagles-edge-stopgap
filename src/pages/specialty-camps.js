@@ -71,7 +71,7 @@ const SpecialtyCampsPage = () => (
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-August 16</td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#robotics-section">Robotics 101 - EV3</a></td>
+              <td><a class="camplink" href="#robotics101-section">Robotics 101 - EV3</a></td>
               <td>Rising 4th to 6th or 7th</td>
               <td>$395</td>
               <td>
