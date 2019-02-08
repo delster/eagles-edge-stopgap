@@ -53,8 +53,8 @@ const IndexPage = () => (
             title='Specialty Camps'
             imgsrc={ServiceBlurbImg2}
             content='Our coed speciality programs offer unique opportunities to focus on everything from acting, music, pottery and photography to the latest tech, 3D-game design, and Minecraft!'
-            buttonText='Enroll'
-            buttonLink="http://eaglesedge.campbrainregistration.com" />
+            buttonText='Explore'
+            buttonLink="/specialty-camps" />
         </Col>
         <Col xs='12' sm='6' xl='3' style={{ padding: `0` }}>
           <HomeBlurb
@@ -71,8 +71,8 @@ const IndexPage = () => (
             title='Academic Enrichment'
             imgsrc={ServiceBlurbImg4}
             content="In the tradition of academic excellence at St. John’s Prep, our academic enrichment program offers coed courses for students to hone their skills in the summer and during the school year."
-            buttonText='Enroll'
-            buttonLink="http://eaglesedge.campbrainregistration.com" />
+            buttonText='Explore'
+            buttonLink="/academic-enrichment" />
         </Col>
       </Row>
     </section>

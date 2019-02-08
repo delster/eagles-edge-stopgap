@@ -198,6 +198,10 @@ a.camp-enroll-btn:hover {
   color: black;
   margin: 0 .5em;
 }
+#primary-nav a {
+  font-size:16px;
+  text-transform:uppercase;
+}
 
 /* Academic Enrichment */
 .classes-info h2 {
@@ -208,7 +212,17 @@ a.camp-enroll-btn:hover {
   font-size:15px;
 }
 
-/* Temporarily hide primary nav */
-#primary-nav a:not(.btn) {
-  display: none;
+@media(max-width:520px) {
+#schedule-section .table thead, #openregistration-section .table thead {
+  display:none;
 }
+}
+
+@media(max-width:1000px) {
+  #primary-nav a {
+    display:none;
+  }
+  #primary-nav a.btn-secondary {
+    display:inline;
+  }
+  }
