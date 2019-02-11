@@ -192,14 +192,14 @@ a.camp-enroll-btn:hover {
 }
 
 /* Main Header */
-#main-header .img-wrap {max-width:200px}
-#primary-nav a {
+#main-header .img-wrap {
+  max-width:200px
+}
+#primary-nav .nav-link {
   position: relative;
   color: black;
-  margin: 0 .5em;
-}
-#primary-nav a {
   font-size:16px;
+  font-family: DIN;
   text-transform:uppercase;
 }
 
@@ -207,22 +207,14 @@ a.camp-enroll-btn:hover {
 .classes-info h2 {
   font-size:1.5rem;
 }
-
-.classes-info p, .classes-info strong {
+.classes-info p,
+.classes-info strong {
   font-size:15px;
 }
 
 @media(max-width:520px) {
-#schedule-section .table thead, #openregistration-section .table thead {
-  display:none;
-}
-}
-
-@media(max-width:1000px) {
-  #primary-nav a {
+  #schedule-section .table thead,
+  #openregistration-section .table thead {
     display:none;
   }
-  #primary-nav a.btn-secondary {
-    display:inline;
-  }
-  }
+}

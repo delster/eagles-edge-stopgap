@@ -15,17 +15,11 @@ import Footer from './footer'
 library.add(faSwimmer, faPalette, faMusic, faFootballBall, faTheaterMasks, faFlaskPotion, faBowArrow, faTrees, faMountain, faWatchFitness, faOctagon, faFistRaised, faStar, faStars, faCampground, faTshirt, faTrophyAlt)
 
 const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`query SiteTitleQuery { site { siteMetadata { title } } }`}
-
-    render={data => (
-      <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        {children}
-        <Footer />
-      </>
-    )}
-  />
+  <>
+    <Header />
+    {children}
+    <Footer />
+  </>
 )
 
 Layout.propTypes = {
