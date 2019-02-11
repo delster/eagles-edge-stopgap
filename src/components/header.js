@@ -2,19 +2,12 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import {
   Container,
-  Row,
   Button,
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
+  NavItem
 } from 'reactstrap'
 import Logo from '../images/logo.png'
 
@@ -44,16 +37,16 @@ class Header extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav id="primary-nav" className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink to="/camp-christopher">Day Camp</NavLink>
+                  <Link className="nav-link" to="/camp-christopher">Day Camp</Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/camp-sports">Sports Camps</NavLink>
+                  <Link className="nav-link" to="/camp-sports">Sports Camps</Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/academic-enrichment">Academic Enrichment</NavLink>
+                  <Link className="nav-link" to="/academic-enrichment">Academic Enrichment</Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/specialty-camps">Specialty Camps</NavLink>
+                  <Link className="nav-link" to="/specialty-camps">Specialty Camps</Link>
                 </NavItem>
                 <Button
                   href="http://eaglesedge.campbrainregistration.com"
