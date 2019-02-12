@@ -85,7 +85,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
-              <td>$320</td>
+              <td>$40</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -97,7 +97,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>9th-12th grades </td>
-              <td>$640</td>
+              <td>$80</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -124,7 +124,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
-              <td>$320</td>
+              <td>$40</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -136,7 +136,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>9th-12th grades </td>
-              <td>$640</td>
+              <td>$80</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -175,7 +175,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
-              <td>$320</td>
+              <td>$40</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -187,7 +187,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>9th-12th grades </td>
-              <td>$640</td>
+              <td>$80</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -237,7 +237,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
-              <td>$320</td>
+              <td>$40</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -249,7 +249,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>9th-12th grades </td>
-              <td>$640</td>
+              <td>$80</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -300,7 +300,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
-              <td>$320</td>
+              <td>$40</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -312,7 +312,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>9th-12th grades </td>
-              <td>$640</td>
+              <td>$80</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -363,7 +363,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
-              <td>$320</td>
+              <td>$40</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -375,7 +375,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>9th-12th grades </td>
-              <td>$640</td>
+              <td>$80</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -427,7 +427,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
-              <td>$320</td>
+              <td>$40</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -439,7 +439,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>9th-12th grades </td>
-              <td>$640</td>
+              <td>$80</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -490,7 +490,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>6th-8th grades </td>
-              <td>$320</td>
+              <td>$40</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -502,7 +502,7 @@ const CampSportsPage = () => (
             <tr>
               <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
               <td>9th-12th grades </td>
-              <td>$640</td>
+              <td>$80</td>
               <td>
                 <a
                   href='https://eaglesedge.campbrainregistration.com/'
@@ -1155,7 +1155,7 @@ const CampSportsPage = () => (
               fontSize: `23px`,
               fontWeight: `700`
             }}>
-              7/22 - 7/25
+              8/12 - 8/15
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               9-4pm
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
