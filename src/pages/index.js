@@ -54,7 +54,8 @@ const IndexPage = () => (
             imgsrc={ServiceBlurbImg2}
             content='Our coed speciality programs offer unique opportunities to focus on everything from acting, music, pottery and photography to the latest tech, 3D-game design, and Minecraft!'
             buttonText='Explore'
-            buttonLink="/specialty-camps" />
+            buttonLink="/specialty-camps"
+            isReactLink />
         </Col>
         <Col xs='12' sm='6' xl='3' style={{ padding: `0` }}>
           <HomeBlurb
@@ -63,7 +64,8 @@ const IndexPage = () => (
             imgsrc={ServiceBlurbImg3}
             content='8+ sport-specific camps and a multi-sport camp empower boys and girls ages 6 to 18 to fine tune skills with the leadership of top coaches and athletic trainers and an emphasis on leadership and mental skills.'
             buttonText='Explore'
-            buttonLink="/camp-sports" />
+            buttonLink="/camp-sports"
+            isReactLink />
         </Col>
         <Col xs='12' sm='6' xl='3' style={{ padding: `0` }}>
           <HomeBlurb
@@ -72,7 +74,8 @@ const IndexPage = () => (
             imgsrc={ServiceBlurbImg4}
             content="In the tradition of academic excellence at St. John’s Prep, our academic enrichment program offers coed courses for students to hone their skills in the summer and during the school year."
             buttonText='Explore'
-            buttonLink="/academic-enrichment" />
+            buttonLink="/academic-enrichment"
+            isReactLink />
         </Col>
       </Row>
     </section>

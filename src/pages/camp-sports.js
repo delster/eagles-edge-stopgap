@@ -83,7 +83,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>6th-8th grades </td>
               <td>$40</td>
               <td>
@@ -95,7 +95,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>9th-12th grades </td>
               <td>$80</td>
               <td>
@@ -122,7 +122,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>6th-8th grades </td>
               <td>$40</td>
               <td>
@@ -134,7 +134,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>9th-12th grades </td>
               <td>$80</td>
               <td>
@@ -173,7 +173,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>6th-8th grades </td>
               <td>$40</td>
               <td>
@@ -185,7 +185,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>9th-12th grades </td>
               <td>$80</td>
               <td>
@@ -235,7 +235,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>6th-8th grades </td>
               <td>$40</td>
               <td>
@@ -247,7 +247,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>9th-12th grades </td>
               <td>$80</td>
               <td>
@@ -298,7 +298,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>6th-8th grades </td>
               <td>$40</td>
               <td>
@@ -310,7 +310,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>9th-12th grades </td>
               <td>$80</td>
               <td>
@@ -361,7 +361,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>6th-8th grades </td>
               <td>$40</td>
               <td>
@@ -373,7 +373,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>9th-12th grades </td>
               <td>$80</td>
               <td>
@@ -425,7 +425,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>6th-8th grades </td>
               <td>$40</td>
               <td>
@@ -437,7 +437,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>9th-12th grades </td>
               <td>$80</td>
               <td>
@@ -488,7 +488,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>6th-8th grades </td>
               <td>$40</td>
               <td>
@@ -500,7 +500,7 @@ const CampSportsPage = () => (
               </td>
             </tr>
             <tr>
-              <td><a class="camplink" href="#strength-section">Strength & Conditioning (Coed)</a></td>
+              <td><a class="camplink" href="#strength-section">Strength & Conditioning</a></td>
               <td>9th-12th grades </td>
               <td>$80</td>
               <td>
@@ -1179,7 +1179,7 @@ const CampSportsPage = () => (
       <Container>
         <Row className="reverse-stacked">
           <Col xs='12' lg='6'>
-            <h2>Strength & Conditioning (Coed)</h2>
+            <h2>Strength & Conditioning</h2>
             <p style={{
               color: `#137cac`,
               fontFamily: `DIN`,
@@ -1188,7 +1188,7 @@ const CampSportsPage = () => (
               marginBottom: `0`,
               textTransform: `uppercase`
             }}>
-              Middle School (Grades 6-8)
+              6th Grade - Rising 12th Grade
             </p>
             <p style={{
               fontFamily: `DIN`,
@@ -1197,34 +1197,25 @@ const CampSportsPage = () => (
             }}>
               6/24 - 8/16
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              M-W or Tu-Th, 9am-10am
+              M-Th 9am-10am
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               $320
             </p>
-            <p style={{
-              color: `#137cac`,
-              fontFamily: `DIN`,
-              fontSize: `26px`,
-              fontWeight: `700`,
-              marginBottom: `0`,
-              textTransform: `uppercase`
-            }}>
-              High School (Grades 9-12)
+            <p style={{ fontFamily: `DIN`, fontSize: `23px`, fontWeight: `700` }}>
+              (SJP Athletics - Boys only) <br />
+              6:30 - 8:00 am, $80/week
             </p>
-            <p style={{
-              fontFamily: `DIN`,
-              fontSize: `23px`,
-              fontWeight: `700`
-            }}>
-              6/24 - 8/16
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              M-Th
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              $640
-              <br />
-              Session 1: 6:30am-8am
-              <br />
-              Session 2: 7:30am-9am
+            <p style={{ fontFamily: `DIN`, fontSize: `23px`, fontWeight: `700` }}>
+              (SJP Athletics - Boys only) <br />
+              7:30 - 9:00 am, $80/week
+            </p>
+            <p style={{ fontFamily: `DIN`, fontSize: `23px`, fontWeight: `700` }}>
+              (SJP Middle School only) <br />
+              9:00 - 10:00 am, $40/week
+            </p>
+            <p style={{ fontFamily: `DIN`, fontSize: `23px`, fontWeight: `700` }}>
+              (Open to external groups) <br />
+              10:00 - 11:30am, $80/week
             </p>
             <p>Improve endurance, stamina, strength, flexibility, power, speed, coordination, agility, balance, and accuracy. Workouts are held on the Brother Linus, C.F.X. Athletic Commons and in our new, state-of-the-art Wellness Center.</p>
             <p style={{ color: `#137cac`, fontWeight: `700`, marginBottom: `0` }}>Bill McSheffrey Head Strength & Conditioning Coordinator at St. John’s Prep</p>

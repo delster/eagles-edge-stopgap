@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faSwimmer, faPalette, faMusic, faFootballBall, faTheaterMasks, faFlaskPotion, faBowArrow, faTrees, faMountain, faWatchFitness, faOctagon, faFistRaised, faStar, faStars, faCampground, faTshirt, faTrophyAlt

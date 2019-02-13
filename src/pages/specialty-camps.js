@@ -53,10 +53,10 @@ const SpecialtyCampsPage = () => (
           </thead>
           <tbody>
             <tr>
-              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-August 16</td>
+              <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 15-August 12</td>
             </tr>
             <tr>
-              <td>Outdoor Skills camp</td>
+              <td>Outdoor Adventure</td>
               <td>Ages 5 - 12</td>
               <td>$375</td>
               <td>
@@ -211,7 +211,7 @@ const SpecialtyCampsPage = () => (
             </tr>
           </thead>
           <tbody>
-          <tr>
+            <tr>
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 10-June 20</td>
             </tr>
             <tr>
@@ -225,7 +225,7 @@ const SpecialtyCampsPage = () => (
                   style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>     
+            </tr>
             <tr>
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-June 27</td>
             </tr>
@@ -240,7 +240,7 @@ const SpecialtyCampsPage = () => (
                   style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>            
+            </tr>
             <tr>
               <td>Art Portfolio Preparation (AM)</td>
               <td>Grades 6-12</td>
@@ -267,10 +267,10 @@ const SpecialtyCampsPage = () => (
                   style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>  
+            </tr>
             <tr>
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>June 24-August 10</td>
-            </tr>  
+            </tr>
             <tr>
               <td>Summer Theater at St. John's Prep (PM)</td>
               <td>Grades 9-12</td>
@@ -282,10 +282,10 @@ const SpecialtyCampsPage = () => (
                   style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>      
+            </tr>
             <tr>
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 8-July 12</td>
-            </tr>  
+            </tr>
             <tr>
               <td>Chamber Strings (AM)</td>
               <td>Grades 6-12</td>
@@ -297,10 +297,10 @@ const SpecialtyCampsPage = () => (
                   style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>      
+            </tr>
             <tr>
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 8-July 18</td>
-            </tr>  
+            </tr>
             <tr>
               <td>Ceramics Pottery Workshop (AM)</td>
               <td>Ages 15-18</td>
@@ -312,10 +312,10 @@ const SpecialtyCampsPage = () => (
                   style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>      
+            </tr>
             <tr>
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>July 15-July 19</td>
-            </tr>  
+            </tr>
             <tr>
               <td>High School Audition Workshop</td>
               <td>Grades 9-12</td>
@@ -327,10 +327,10 @@ const SpecialtyCampsPage = () => (
                   style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>      
+            </tr>
             <tr>
               <td colSpan='4' style={{ fontWeight: `700`, padding: `2em .75em 0` }}>August 12-August 16</td>
-            </tr>  
+            </tr>
             <tr>
               <td>Middle School Audition Workshop (AM)</td>
               <td>Grades 6-8</td>
@@ -342,7 +342,7 @@ const SpecialtyCampsPage = () => (
                   style={{ color: `#db672b`, fontFamily: `DIN`, fontWeight: `700` }}>ENROLL NOW
                 </a>
               </td>
-            </tr>      
+            </tr>
           </tbody>
         </table>
       </Container>
@@ -466,7 +466,7 @@ const SpecialtyCampsPage = () => (
           <Col xs='12' lg='6'>
             <h2>Game Design &amp; Roller Coaster Science</h2>
             <ul>
-              <li>The camp day is divided into two topics: Game Design & Roller Coaster Science. In the Game Design potion of camp, campers learn the basics of video game development and design games by hand with Bloxels and tablets.</li> 
+              <li>The camp day is divided into two topics: Game Design & Roller Coaster Science. In the Game Design potion of camp, campers learn the basics of video game development and design games by hand with Bloxels and tablets.</li>
               <li>In the Roller Coaster Science session, campers work with instructors to learn the basic engineering behind roller coasters and use K'Nex to build models that demonstrate how roller coasters work.</li>
               <li>Gain the ability to define and explain examples of kinetic and potential energy, and centripetal force</li>
               <li>Work in groups to build a working roller coaster model with K’NEX</li>
@@ -503,9 +503,9 @@ const SpecialtyCampsPage = () => (
               <li>Using their problem solving skills and Redstone circuitry, campers will build complex and large-scale adventures and mini-games. </li>
               <li>Using servers, campers work in teams to learn how to set up and administer Minecraft servers for multiplayer adventures. </li>
               <li>Campers will also be provided instruction on Tekkit and the Technic Platform to help the install MODs within Minecraft.	</li>
-              <li>Advanced Minecraft game and level design</li> 
+              <li>Advanced Minecraft game and level design</li>
               <li>Redstone scripting </li>
-              <li>Use of Tekkit mod pack launchers</li> 
+              <li>Use of Tekkit mod pack launchers</li>
               <li>Minecraft Server Administration (via Minecraft EDU)</li>
             </ul>
             <Button
@@ -544,9 +544,9 @@ const SpecialtyCampsPage = () => (
           <Col xs='12' lg='6'>
             <h2>Minecraft 4 Kids</h2>
             <ul>
-              <li>Experience the amazing world of Minecraft. Build your own virtual reality in a sandbox-like environment by using tablets to challenge your mind and create your own adventures.</li> 
+              <li>Experience the amazing world of Minecraft. Build your own virtual reality in a sandbox-like environment by using tablets to challenge your mind and create your own adventures.</li>
               <li>This fun and engaging camp will spark interests, foster creativity and help you maximize your learning potential.</li>
-              <li>No prior experience with Minecraft necessary. All skill levels welcome. </li>	
+              <li>No prior experience with Minecraft necessary. All skill levels welcome. </li>
               <li>Campers learn: style, design and aesthetics</li>
               <li>Campers build their dream house to scale</li>
               <li>Campers will design a large-scale Minecraft Adventure</li>
@@ -578,9 +578,9 @@ const SpecialtyCampsPage = () => (
             <h2>Programming for Gamers: Learn to Code</h2>
             <ul>
               <li>This exciting programming camp provides you with an introduction to coding and gives you an understanding of how computer coding works through the use of both “drag and drop” tools and Javascript.</li>
-              <li>The camp uses a combination of programming tools, including Minecraft EDU and other game-based software that let you play and code at the same time. Ultimately, you can take on the role of a mighty hero who can cast spells and build worlds however, to wield your magic you need to learn how to write computer code.</li> 
+              <li>The camp uses a combination of programming tools, including Minecraft EDU and other game-based software that let you play and code at the same time. Ultimately, you can take on the role of a mighty hero who can cast spells and build worlds however, to wield your magic you need to learn how to write computer code.</li>
               <li>No prior experience necessary. All skill levels are welcome.</li>
-              <li>Review of object oriented design programming concepts with CodeSpells and Minecraft EDU</li> 
+              <li>Review of object oriented design programming concepts with CodeSpells and Minecraft EDU</li>
               <li>Review of the Drag and Drop Programming software development environment </li>
               <li>Managing data types and variables, handling user input, finding and fixing program errors</li>
             </ul>
@@ -621,7 +621,7 @@ const SpecialtyCampsPage = () => (
             <h2>Web Design 4 Kids</h2>
             <ul>
               <li>The focus of Web Design 4 Kids is on learning how to design a super cool website, without writing HTML or other code. </li>
-              <li>Campers will learn the basics of web design using WSIWIG design tools and will also have an introduction to graphic design software.</li> 
+              <li>Campers will learn the basics of web design using WSIWIG design tools and will also have an introduction to graphic design software.</li>
               <li>By the last day of camp, campers will have designed a series of web pages that reflect their personal interests and hobbies. </li>
               <li>No prior experience necessary. All skills levels welcome.	</li>
               <li>Learn how to create a website</li>
@@ -656,8 +656,8 @@ const SpecialtyCampsPage = () => (
             <h2>Digital Photography and Intro to Engineering</h2>
             <ul>
               <li>The camp day is divided into two topics: Digital Photography and Intro to Engineering.</li>
-              <li>In Digital Photography campers will take photos, make photo edits, add 2D art and create other fun and engaging images.</li> 
-              <li>During the Intro to Engineering portion of camp, campers work with a variety of tools that investigate simple motors and machines (gears, wheels, axles, levers and pulleys), while solving tasks related to mechanical principles.</li>	
+              <li>In Digital Photography campers will take photos, make photo edits, add 2D art and create other fun and engaging images.</li>
+              <li>During the Intro to Engineering portion of camp, campers work with a variety of tools that investigate simple motors and machines (gears, wheels, axles, levers and pulleys), while solving tasks related to mechanical principles.</li>
               <li>Discover your Artistic Side</li>
               <li>Learn how to take cool Photos</li>
               <li>Discover how to take your photos to the next level with Photo Editor</li>
