@@ -1198,8 +1198,6 @@ const CampSportsPage = () => (
               6/24 - 8/16
               <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
               M-Th 9am-10am
-              <span style={{ border: `2px solid #137cac`, margin: `1em` }} />
-              $320
             </p>
             <p style={{ fontFamily: `DIN`, fontSize: `23px`, fontWeight: `700` }}>
               (SJP Athletics - Boys only) <br />
