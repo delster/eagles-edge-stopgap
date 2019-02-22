@@ -28,6 +28,20 @@ class Header extends Component {
   render() {
     return (
       <header id="main-header">
+        <div id="main-subheader" style={{ backgroundColor: `#054c6c`, padding: `.5em 0` }}>
+          <Container style={{ textAlign: `right` }}>
+            <div style={{
+              display: `inline-block`,
+              color: `#ffffff`,
+              fontWeight: `600`,
+              textTransform: `uppercase`
+            }}>
+              <span style={{ fontSize: `.8rem` }}> 978-774-1427 </span>
+              <span style={{ fontSize: `.8rem`, margin: `0 .5em` }}>|</span>
+              <a href="mailto:eaglesedge@stjohnsprep.org" style={{ color: `#fff`, fontSize: `.8rem` }}>EMAIL US</a>
+            </div>
+          </Container>
+        </div>
         <Navbar color="light" light expand="md">
           <Container>
             <div className="img-wrap">
